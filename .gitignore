@@ -1,0 +1,13 @@
+# JetBrains / IntelliJ / WebStorm IDE config
+.idea/
+
+# Node dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Color Scheme
+*.icls
