@@ -3,11 +3,14 @@
 ---
 
 ### If you've made changes on your local device and want to push to GitHub in ONE commit:
-git reset --soft HEAD~6
-git commit -m "<message>"
+
+git log --oneline (THIS SHOWS YOUR RECENT COMMITS. UNDERNEATH, REPLACE 'X' WITH THE AMOUNT OF PAST COMMITS YOU WANT TO COLLAPSE INTO ONE)
+
+git reset --soft HEAD~X
+git commit -m "message"
 git push origin <branch-name>
 
-Don't include the < > brackets
+#### Don't include the < > brackets
 
 ### If you want to save changes to an unfinished feature:
 
