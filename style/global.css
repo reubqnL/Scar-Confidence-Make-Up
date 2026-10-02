@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-
 * {
     box-sizing: border-box; /* Stops the horizontal scroll bar from showing everywhere */
 }
 
 html {
     overflow-y: scroll; /* Keeps the vertical scrollbar space locked */
+    overflow-x: hidden;
 }
 
 body {
@@ -13,5 +13,5 @@ body {
     padding: 0;
     width: 1024px;      /* Changed to a fixed width */
     overflow-x: auto;
-    background: radial-gradient(circle at 50% 50%, #fefefe, #e5f8ff);
+    background: radial-gradient(circle at 50% 50%, #acccec, #d5e5f6);
 }
