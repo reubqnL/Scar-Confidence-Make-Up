@@ -1,1 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* HEADER */
+
+nav {
+    display: flex;
+    width: 100%;
+    gap: 55px;
+    margin: 0 0 0 0;
+    padding: 30px 0 20px 65px;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.headerSeperator {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, black, transparent);
+    width: 50%;
+    display: flex;
+    margin: auto;
+    margin: 0 0 0 35px;
+}
+
+.header {
+    font-family: "DM Sans", sans-serif;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+    margin: auto;
+    position: fixed;
+    top: 7px;
+    left: 100px;
+}
+
+.header img {
+    width: 100%;
+    max-width: 55px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
