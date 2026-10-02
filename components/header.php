@@ -5,6 +5,7 @@
     <title><?php echo "Scar Confidence | $pageTitle"?></title>
     <link rel="stylesheet" href="../style/global.css">
     <link rel="stylesheet" href="../style/<?php echo $pageCSS?>">
+    <link rel="stylesheet" href="../style/header.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
@@ -18,11 +19,11 @@
 
 <header>
     <nav>
-        <a href="../pages/index.php">Home</a>
-        <a href="../pages/about.php">About</a>
-        <a href="../pages/services.php">Services</a>
-        <a href="../pages/directory.php">Directory</a>
-        <a href="../pages/contact.php">Contact</a>
+        <a href="../pages/index.php" class="<?php if ($current_page == 'index') { echo 'active'; } ?>">Home</a>
+        <a href="../pages/about.php" class="<?php if ($current_page == 'about') { echo 'active'; } ?>">About</a>
+        <a href="../pages/services.php" class="<?php if ($current_page == 'services') { echo 'active'; } ?>">Services</a>
+        <a href="../pages/directory.php" class="<?php if ($current_page == 'directory') { echo 'active'; } ?>">Directory</a>
+        <a href="../pages/contact.php" class="<?php if ($current_page == 'contact') { echo 'active'; } ?>">Contact</a>
     </nav>
     <hr class="headerSeperator">
 
