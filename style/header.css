@@ -1,5 +1,9 @@
 /* HEADER */
 
+header {
+    position: relative;
+}
+
 nav {
     display: flex;
     width: 100%;
@@ -24,16 +28,21 @@ nav a:hover {
     border: none;
     height: 2px;
     background: linear-gradient(to right, black, transparent);
-    width: 100%;
+    /* Use calc() so the width + margin doesn't exceed 100% and cause a scrollbar */
+    width: calc(100% - 35px);
     margin: 0 0 0 35px;
 }
 
 .header {
     font-family: "DM Sans", sans-serif;
     display: flex;
-    width: 100%;
     flex-direction: row;
-    margin: -77px 0 0 650px;
+    /* Switched from left margin to absolute positioning to keep it identical */
+    position: absolute;
+    top: 15px;
+    right: 50px;
+    width: auto;
+    margin: 0;
 }
 
 .header img {
@@ -47,6 +56,7 @@ nav a:hover {
 h1 {
     color: #005f84;
     font-weight: 500;
+    margin: 0 0 0 10px; /* Keeps spacing neat next to the icon */
 }
 
 .active {
