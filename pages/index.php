@@ -3,5 +3,5 @@ $pageTitle = "Scar Confidence";
 $pageCSS = "";
 $pageDescription = "";
 
-include __DIR__ . "/../components/header.php";
+require __DIR__ . "/../components/header.php";
 ?>
