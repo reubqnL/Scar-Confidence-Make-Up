@@ -33,7 +33,7 @@ nav a:hover {
     border: none;
     height: 2px;
     background: linear-gradient(to right, black, transparent);
-    width: calc(77% - 70px);
+    width: calc(70% - 70px);
     margin-left: 30px;
 }
 
@@ -45,6 +45,7 @@ nav a:hover {
     position: static;
     width: auto;
     margin: 0;
+    margin-right: 500px;
 }
 
 .header img {
