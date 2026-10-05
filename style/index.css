@@ -1,0 +1,40 @@
+@import url("https://unpkg.com/@fontsource/open-sauce-sans@latest/index.css");
+
+/* LANDING PAGE */
+
+.hero-content h2 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 122px;
+
+    /* Colour gradient from https://www.cssportal.com */
+
+    background: #121FCF;
+    background: linear-gradient(90deg, #005f84, #1e8fbb, #1e8fbb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.hero-content h3 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 51.6px;
+
+    /* Colour gradient from https://www.cssportal.com */
+
+    background: #121FCF;
+    background: linear-gradient(90deg, #005f84, #1e8fbb, #1e8fbb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.established, .date {
+    font-family: "Open Sauce Sans", sans-serif;
+}
+
+.established {
+    color: #005f84;
+}
+
+.date {
+    color: #ffffff
+}

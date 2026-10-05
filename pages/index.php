@@ -30,7 +30,7 @@ require __DIR__ . "/../components/header.php";
             "></span>
 
             <span class="established"><h4>Established:</h4>
-            <h4 class="2025">2025</h4>
+            <h4 class="date">2025</h4>
             </span>
 
             <span class="tagline"><p><i>
