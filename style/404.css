@@ -1,18 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-h2, h3, p {
+h2, h3, p, button {
     font-family: "Roboto Mono", sans-serif;
     font-size: 24px;
 }
 
 p {
     font-weight: 400;
+    margin: 0;
+}
+
+h2, h3 {
+    margin: 0;
 }
 
 hr {
     border: 1px solid;
     width: 75%;
     color: black;
+    margin: 0;
 }
 
 .errorContainer {
@@ -24,11 +30,34 @@ hr {
     border-radius: 20px;
     background: #acccec;
     padding: 40px;
+    max-width: 700px;
+    width: 100%;
+    box-sizing: border-box;
+    gap: 20px;
 }
 
 .errorPage {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 110px 20px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 button {
     text-decoration: none;
+    border-radius: 20px;
+    background: #FCA332;
+    border: 1px solid;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+button:hover {
+    transition: transform 0.2s ease-in-out; /* Smooth hover animation */
+    transform: scale(1.07);
 }
