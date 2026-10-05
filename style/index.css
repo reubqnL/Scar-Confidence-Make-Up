@@ -29,6 +29,7 @@
 
 .established, .date {
     font-family: "Open Sauce Sans", sans-serif;
+    font-size: 14.3px;
 }
 
 .established {
@@ -37,4 +38,9 @@
 
 .date {
     color: #ffffff
+}
+
+.tagline {
+    font-family: "DM Sans", sans-serif;
+    font-size: 11.6px;
 }
