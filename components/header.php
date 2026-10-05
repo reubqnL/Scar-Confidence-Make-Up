@@ -27,10 +27,10 @@
             <a href="../pages/contact.php" class="<?php if ($current_page == 'contact') { echo 'active'; } ?>">Contact</a>
         </nav>
 
-        <div class="header">
+        <a class="header" href="../pages/index.php" style="text-decoration: none;">
             <img src="../assets/icon.png" alt="Scar Confidence Icon">
             <h1>Scar Confidence</h1>
-        </div>
+        </a>
     </div>
 
     <hr class="headerSeparator">
