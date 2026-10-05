@@ -1,17 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 * {
-    box-sizing: border-box; /* Stops the horizontal scroll bar from showing everywhere */
+    box-sizing: border-box;
+    /*
+    It ensures that any padding or borders you add are included inside an
+    element's total width and height, preventing items from unexpectedly stretching past their containers
+    */
+
 }
 
 html {
-    overflow-y: scroll; /* Keeps the vertical scrollbar space locked */
+    overflow-y: scroll;
+    overflow-x: auto;
 }
 
 body {
     margin: 0;
     padding: 0;
-    width: 1024px;      /* Changed to a fixed width */
+    width: 100%;
+    margin-left: 0;
+    margin-right: auto;
     overflow-x: auto;
-    background: radial-gradient(circle at 50% 50%, #fefefe, #e5f8ff);
+    position: relative;
+    background: radial-gradient(circle at 50% 50%, #acccec, #d5e5f6);
 }

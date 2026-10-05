@@ -12,24 +12,26 @@
 
     <!-- SEO -->
     <meta name="title" content="<?php echo $pageTitle?>">
-    <meta name="description" content="<?php echo $pageDescription?>"
+    <meta name="description" content="<?php echo $pageDescription?>">
 </head>
+<body>
 
-    <!-- Navigation Bar -->
-
+<!-- Navigation Bar -->
 <header>
-    <nav>
-        <a href="../pages/index.php" class="<?php if ($current_page == 'index') { echo 'active'; } ?>">Home</a>
-        <a href="../pages/about.php" class="<?php if ($current_page == 'about') { echo 'active'; } ?>">About</a>
-        <a href="../pages/services.php" class="<?php if ($current_page == 'services') { echo 'active'; } ?>">Services</a>
-        <a href="../pages/directory.php" class="<?php if ($current_page == 'directory') { echo 'active'; } ?>">Directory</a>
-        <a href="../pages/contact.php" class="<?php if ($current_page == 'contact') { echo 'active'; } ?>">Contact</a>
-    </nav>
-    <hr class="headerSeperator">
+    <div class="headerTop">
+        <nav>
+            <a href="../pages/index.php" class="<?php if ($current_page == 'index') { echo 'active'; } ?>">Home</a>
+            <a href="../pages/about.php" class="<?php if ($current_page == 'about') { echo 'active'; } ?>">About</a>
+            <a href="../pages/services.php" class="<?php if ($current_page == 'services') { echo 'active'; } ?>">Services</a>
+            <a href="../pages/directory.php" class="<?php if ($current_page == 'directory') { echo 'active'; } ?>">Directory</a>
+            <a href="../pages/contact.php" class="<?php if ($current_page == 'contact') { echo 'active'; } ?>">Contact</a>
+        </nav>
 
-    <span class="header">
-    <img src="../assets/icon.png" alt="Scar Confidence Icon">
-        <h1>Scar Confidence</h1>
-    </span>
+        <div class="header">
+            <img src="../assets/icon.png" alt="Scar Confidence Icon">
+            <h1>Scar Confidence</h1>
+        </div>
+    </div>
+
+    <hr class="headerSeperator">
 </header>
-</html>

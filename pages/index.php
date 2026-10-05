@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "Home Page";
-$pageCSS = "";
+$pageCSS = "index.css";
 $pageDescription = "";
 $current_page = "index";
 
