@@ -33,5 +33,5 @@
         </div>
     </div>
 
-    <hr class="headerSeperator">
+    <hr class="headerSeparator">
 </header>

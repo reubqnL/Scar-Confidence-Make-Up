@@ -29,7 +29,7 @@ nav a:hover {
     color: #1e8fbb;
 }
 
-.headerSeperator {
+.headerSeparator {
     border: none;
     height: 2px;
     background: linear-gradient(to right, black, transparent);
