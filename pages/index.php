@@ -37,7 +37,8 @@ require __DIR__ . "/../components/header.php";
                     Trusted by hospitals and the wider medical industry for over a year. We provide
                     authentic,<br> ethical solutions built on integrity and quality. Now expanding our
                     services to reach a global<br> audience.
-                    </i></p></span>
+                    </i></p>
+            </span>
         </div>
     </section>
 </main>
