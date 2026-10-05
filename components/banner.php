@@ -13,7 +13,7 @@
     }
 
     .banner {
-        background-color: #ff5722;
+        background-color: #de0a26;
         color: white;
         font-family: "Roboto Mono", sans-serif;
         font-weight: bold;
@@ -28,7 +28,7 @@
 
         /* Initial hidden state */
         transform: translateY(-100%);
-        transition: transform 0.4s ease-in-out;
+        transition: transform 0.6s ease-in-out;
     }
 
     .banner.show {
@@ -41,3 +41,12 @@
         CLASS PROJECT
     </div>
 </div>
+
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        const banner = document.querySelector('.banner');
+        setTimeout(() => {
+            banner.classList.add('show');
+        }, 300);
+    });
+</script>
