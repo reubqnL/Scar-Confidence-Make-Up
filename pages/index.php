@@ -27,6 +27,7 @@ require __DIR__ . "/../components/header.php";
                 background: linear-gradient(to right, black, transparent);
                 width: calc(55% - 70px);
                 margin-left: 30px;
+                margin-top: 60px;
             "></span>
 
             <span class="established"><h4>Established:</h4>

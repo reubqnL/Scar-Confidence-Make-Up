@@ -34,7 +34,7 @@ nav a:hover {
     height: 2px;
     background: linear-gradient(to right, black, transparent);
     width: calc(70% - 70px);
-    margin-left: 30px;
+    margin: 0 0 0 30px;
 }
 
 .header {
