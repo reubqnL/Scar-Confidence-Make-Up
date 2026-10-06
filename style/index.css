@@ -58,6 +58,12 @@
     color: #ffffff
 }
 
+.tag {
+    display: flex;
+    flex-direction: row;
+    padding-left: 700px;
+}
+
 .tagline {
     font-family: "DM Sans", sans-serif;
     font-size: 11.6px;
