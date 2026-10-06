@@ -43,6 +43,7 @@
     margin-bottom: 2px;
     margin-left: 60px;
     font-weight: 370;
+    letter-spacing: 5px;
 }
 
 .established, .date {
@@ -58,10 +59,15 @@
     color: #ffffff
 }
 
-.tag {
+.establishedGroup {
     display: flex;
     flex-direction: row;
-    padding-left: 700px;
+    justify-content: center;
+}
+
+.paragraph {
+    display: flex;
+    justify-content: center;
 }
 
 .tagline {
