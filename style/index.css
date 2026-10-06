@@ -2,10 +2,27 @@
 
 /* LANDING PAGE */
 
+.hero {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 100%;
+}
+
 .hero-content {
     display: flex;
+    flex: 3 1 1024px;
     flex-direction: column;
+    max-width: 1120px;
+    min-width: 0; /* text can shrink and wrap instead of forcing the item wider
+    than its available space. */
     margin: 0 0 0 50px;
+}
+
+.hero-content > span { /* span that is a direct child of .hero-content */
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
 }
 
 .hero-content h2 {
@@ -14,7 +31,6 @@
     font-weight: 400;
 
     /* Colour gradient from https://www.cssportal.com */
-
     background: #121FCF;
     background: linear-gradient(90deg, #005f84, #1e8fbb, #1e8fbb);
     -webkit-background-clip: text;
@@ -34,7 +50,6 @@
     font-size: 51.6px;
 
     /* Colour gradient from https://www.cssportal.com */
-
     background: #121FCF;
     background: linear-gradient(90deg, #005f84, #1e8fbb, #1e8fbb);
     -webkit-background-clip: text;
@@ -43,35 +58,86 @@
     margin-bottom: 2px;
     margin-left: 60px;
     font-weight: 370;
-    letter-spacing: 5px;
 }
 
-.established, .date {
+.hero-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: flex-end;
+    gap: 16px;
+    width: min(512px, max(288px, 65%)); /* chooses whichever is larger:
+    288px or 65% of the parents width */
+    max-width: 100%;
+    min-width: 0;
+    transform: translateY(-32px);
+}
+
+.established,
+.date {
     font-family: "Open Sauce Sans", sans-serif;
     font-size: 14.3px;
 }
 
 .established {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    gap: 9px;
+    width: max-content;
+    max-width: 100%;
+    padding: 10px 16px;
+    border: 1px solid #005F8438;
+    border-radius: 999px;
+    background: #FFFFFF9E;
+    box-shadow: 0 8px 20px #005F841A;
     color: #005f84;
 }
 
+.tag h4 {
+    margin: 0;
+    white-space: nowrap; /* keeps text on same line */
+}
+
+.established h4:first-child {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
 .date {
-    color: #ffffff
+    color: #005f84;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
 }
 
-.establishedGroup {
+.tag {
     display: flex;
-    flex-direction: row;
     justify-content: center;
+    min-width: 0;
+    width: 100%;
 }
 
-.paragraph {
+.tagline-container {
     display: flex;
-    justify-content: center;
+    min-width: 0;
+    width: 100%;
 }
 
 .tagline {
+    display: flex;
+    flex: 1 1 100%;
+    min-width: 0;
     font-family: "DM Sans", sans-serif;
     font-size: 11.6px;
 }
 
+.tagline p {
+    flex: 1 1 auto; /* shorthand for: flex-grow: 1, flex-shrink: 1, and flex-basis: auto */
+    min-width: 0;
+    margin: 0;
+    line-height: 1.5;
+    overflow-wrap: anywhere; /* text can break up if needed */
+}

@@ -25,24 +25,27 @@ require __DIR__ . "/../components/header.php";
                 border: none;
                 height: 2px;
                 background: linear-gradient(to right, black, transparent);
-                width: calc(40% - 70px);
+                width: calc(55% - 70px);
                 margin-left: 30px;
                 margin-top: 50px;
             "></span>
-        </div>
 
-        <div class="establishedGroup">
-            <span class="established"><h4>Established: <span class="date">2025</span></h4>
-            </span>
-        </div>
+            <div class="hero-details">
+                <div class="tag">
+                    <span class="established"><h4>Established:</h4>
+                    <h4 class="date">2025</h4>
+                    </span>
+                </div>
 
-        <div class="paragraph">
-            <span class="tagline"><p><i>
-                    Trusted by hospitals and the wider medical industry for over a year. We provide
-                    authentic,<br> ethical solutions built on integrity and quality. Now expanding our
-                    services to reach a global<br> audience.
-                    </i></p>
-            </span>
+                <div class="tagline-container">
+                    <span class="tagline"><p><i>
+                        Trusted by hospitals and the wider medical industry for over a year. We provide
+                        authentic,<br> ethical solutions built on integrity and quality. Now expanding our
+                        services to reach a global<br> audience.
+                        </i></p>
+                    </span>
+                </div>
+            </div>
         </div>
     </section>
 </main>
