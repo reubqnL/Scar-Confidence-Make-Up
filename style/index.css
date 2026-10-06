@@ -70,7 +70,7 @@
     288px or 65% of the parents width */
     max-width: 100%;
     min-width: 0;
-    transform: translateY(-32px);
+    transform: translateY(-180px);
 }
 
 .established,
