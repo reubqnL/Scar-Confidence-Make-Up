@@ -1,5 +1,3 @@
-/* Animation from https://prismic.io/blog/css-animation-examples */
-
 @keyframes fade-in-up {
     to {
         opacity: 1;
@@ -8,11 +6,16 @@
 }
 
 /* base styles for elements to animate */
-.hero-content > span,
-.hero-details {
+.hero-content > span {
     opacity: 0;
     transform: translateY(12px);
-    animation: fade-in-up 350ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    animation: fade-in-up 800ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.hero-details {
+    opacity: 0;
+    transform: translateY(calc(-285px + 16px));
+    animation: hero-details-fade 800ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
 }
 
 /* stagger the delays for a reveal effect */
