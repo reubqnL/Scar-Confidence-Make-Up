@@ -70,7 +70,11 @@
     288px or 65% of the parents width */
     max-width: 100%;
     min-width: 0;
-    transform: translateY(-180px);
+    transform: translateY(-285px);
+}
+
+.established:hover {
+    cursor: help;
 }
 
 .established,
@@ -120,24 +124,24 @@
     width: 100%;
 }
 
-.tagline-container {
-    display: flex;
-    min-width: 0;
-    width: 100%;
-}
+/*.tagline-container {*/
+/*    display: flex;*/
+/*    min-width: 0;*/
+/*    width: 100%;*/
+/*}*/
 
-.tagline {
-    display: flex;
-    flex: 1 1 100%;
-    min-width: 0;
-    font-family: "DM Sans", sans-serif;
-    font-size: 11.6px;
-}
+/*.tagline {*/
+/*    display: flex;*/
+/*    flex: 1 1 100%;*/
+/*    min-width: 0;*/
+/*    font-family: "DM Sans", sans-serif;*/
+/*    font-size: 11.6px;*/
+/*}*/
 
-.tagline p {
-    flex: 1 1 auto; /* shorthand for: flex-grow: 1, flex-shrink: 1, and flex-basis: auto */
-    min-width: 0;
-    margin: 0;
-    line-height: 1.5;
-    overflow-wrap: anywhere; /* text can break up if needed */
-}
+/*.tagline p {*/
+/*    flex: 1 1 auto; !* shorthand for: flex-grow: 1, flex-shrink: 1, and flex-basis: auto *!*/
+/*    min-width: 0;*/
+/*    margin: 0;*/
+/*    line-height: 1.5;*/
+/*    overflow-wrap: anywhere; !* text can break up if needed *!*/
+/*}*/
