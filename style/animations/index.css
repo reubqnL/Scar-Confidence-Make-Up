@@ -5,6 +5,13 @@
     }
 }
 
+@keyframes hero-details-fade { /* custom code block to make sure the 'established' button shows still' */
+    to {
+        opacity: 1;
+        transform: translateY(-285px);
+    }
+}
+
 /* base styles for elements to animate */
 .hero-content > span {
     opacity: 0;
