@@ -1,0 +1,39 @@
+@keyframes fade-in-up {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes hero-details-fade { /* custom code block to make sure the 'established' button shows still' */
+    to {
+        opacity: 1;
+        transform: translateY(-285px);
+    }
+}
+
+/* base styles for elements to animate */
+.hero-content > span {
+    opacity: 0;
+    transform: translateY(12px);
+    animation: fade-in-up 800ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.hero-details {
+    opacity: 0;
+    transform: translateY(calc(-285px + 16px));
+    animation: hero-details-fade 800ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+/* stagger the delays for a reveal effect */
+.hero-content > span:nth-child(1) {
+    animation-delay: 200ms;
+}
+
+.hero-content > span:nth-child(2) {
+    animation-delay: 600ms;
+}
+
+.hero-details {
+    animation-delay: 800ms;
+}
