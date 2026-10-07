@@ -6,6 +6,7 @@ $current_page = "index";
 
 require __DIR__ . "/../components/header.php";
 ?>
+<link rel="stylesheet" href="../style/animations/index.css">
 
 <!-- LANDING PAGE -->
 <main>
