@@ -1,0 +1,53 @@
+/* FOOTER */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-name {
+    font-family: "DM Sans", sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.footer-tagline {
+    font-family: "Roboto Mono", sans-serif;
+}
+
+.footer-legal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Roboto Mono", sans-serif;
+    font-size: 12px;
+    padding: 20px;
+    cursor: help;
+}
+
+.footer-contact {
+    font-family: "Roboto Mono", sans-serif;
+}
+
+.footer-contact a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-contact a:hover {
+    color: #1e8fbb;
+}
+
+.footer-heading {
+    font-family: "DM Sans", sans-serif;
+}
+
+footer hr {
+    width: 100%;
+    max-width: 250px;
+    border: 1px solid black;
+}
+
