@@ -176,3 +176,20 @@
     border: 1px solid black;
     margin-top: 70px;
 }
+
+/* SECOND SECTION */
+
+.thirdSection {
+    background-color: #f18c02;
+    min-height: 690px;
+    display: flex;
+    padding: 30px 190px 0 60px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.third-section-content {
+    justify-content: space-between;
+}

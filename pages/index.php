@@ -59,6 +59,18 @@ require __DIR__ . "/../components/header.php";
         <img src="../assets/secondSection.png" alt="A doctor talking to a patient">
     </section>
 
+    <section class="thirdSection">
+        <div class="thirdSection-content">
+            <hr>
+            <h2 class="thirdSection-header">
+                Key Benefits
+            </h2>
+            <p class="thirdSection-text">
+
+            </p>
+        </div>
+    </section>
+
 </main>
 
 <?php require __DIR__ . "/../components/banner.php"; ?>
