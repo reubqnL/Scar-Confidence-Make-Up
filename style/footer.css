@@ -1,0 +1,14 @@
+/* FOOTER */
+
+footer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.footer-name {
+    font-family: "DM Sans", sans-serif;
+}
+
+.footer-tagline {
+    font-family: "Roboto Mono", sans-serif;
+}
