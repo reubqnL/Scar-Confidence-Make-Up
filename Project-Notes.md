@@ -23,3 +23,5 @@ git stash pop
 #### You can also view all the stashes:
 
 git stash list
+
+USE THIS LATER ON https://www.geeksforgeeks.org/css/how-to-create-a-bounce-in-and-out-on-scroll-effect-using-css/
