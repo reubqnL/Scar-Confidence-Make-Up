@@ -130,9 +130,10 @@
     background-color: #c9e4f7;
     min-height: 690px;
     display: flex;
-    padding: 130px 0 0 60px;
+    padding: 130px 60px 0 60px;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: nowrap;
 }
 
@@ -142,9 +143,11 @@
 }
 
 .secondSection img {
-    max-width: 500px;
-    height: auto;
-    width: 100%;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 40px;
 }
 
 .secondSection-header {
