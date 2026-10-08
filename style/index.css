@@ -130,7 +130,21 @@
     background-color: #c9e4f7;
     min-height: 690px;
     display: flex;
-    padding: 0 0 0 60px;
+    padding: 130px 0 0 60px;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.secondSection-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.secondSection img {
+    max-width: 500px;
+    height: auto;
+    width: 100%;
 }
 
 .secondSection-header {
@@ -145,4 +159,5 @@
     font-family: "DM Sans", sans-serif;
     text-align: left;
     color: #4a4a4a;
+    max-width: 450px;
 }
