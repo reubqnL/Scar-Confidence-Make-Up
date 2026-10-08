@@ -129,4 +129,20 @@
 .secondSection {
     background-color: #c9e4f7;
     min-height: 690px;
+    display: flex;
+    padding: 0 0 0 60px;
+}
+
+.secondSection-header {
+    font-size: 38px;
+    font-family: "Open Sauce Sans", sans-serif;
+    max-width: 550px;
+    color: #4a4a4a;
+}
+
+.secondSection-text {
+    font-size: 17.3px;
+    font-family: "DM Sans", sans-serif;
+    text-align: left;
+    color: #4a4a4a;
 }
