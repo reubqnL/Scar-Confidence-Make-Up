@@ -2,12 +2,8 @@
 
 <?php ?>
 
-<hr>
-
-<footer class="footer"> <!-- role="contentinfo" -->
-
+<footer> <!-- role="contentinfo" -->
     <div class="footer-inner">
-
         <div class="footer-brand">
             <span class="footer-name">Scar Confidence</span>
             <p class="footer-tagline">Ethical Healthcare Solutions<br>Established since 2025.</p>
@@ -16,11 +12,11 @@
         <nav class="footer-nav"> <!--  aria-label="Footer navigation" -->
             <h3 class="footer-heading">Quick Links</h3>
             <ul role="list">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#directory">Directory</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="../pages/index.php">Home</a></li>
+                <li><a href="../pages/about.php">About</a></li>
+                <li><a href="../pages/services.php">Services</a></li>
+                <li><a href="../pages/directory.php">Directory</a></li>
+                <li><a href="../pages/contact.php">Contact</a></li>
             </ul>
         </nav>
 
