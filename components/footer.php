@@ -10,16 +10,7 @@
             <p class="footer-tagline">Ethical Healthcare Solutions<br>Established since 2025.</p>
         </div>
 
-        <nav class="footer-nav">
-            <h3 class="footer-heading">Quick Links</h3>
-            <ul role="list">
-                <li><a href="../pages/index.php">Home</a></li>
-                <li><a href="../pages/about.php">About</a></li>
-                <li><a href="../pages/services.php">Services</a></li>
-                <li><a href="../pages/directory.php">Directory</a></li>
-                <li><a href="../pages/contact.php">Contact</a></li>
-            </ul>
-        </nav>
+        <hr>
 
         <div class="footer-contact">
             <h3 class="footer-heading">Contact</h3>
@@ -28,6 +19,8 @@
                 <p><i></i> <a href="mailto:hello@scarconfidencesheffield.co.uk">hello@scarconfidencesheffield.co.uk</a></p>
         </div>
     </div>
+
+    <hr>
 
     <div class="footer-legal" id="privacy">
         <p>
