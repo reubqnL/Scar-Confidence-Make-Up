@@ -2,7 +2,7 @@
 
 <?php ?>
 
-<footer> <!-- role="contentinfo" -->
+<footer>
     <div class="footer-inner">
         <div class="footer-brand">
             <span class="footer-name">Scar Confidence</span>
@@ -28,21 +28,17 @@
                 <p><i></i> <a href="mailto:hello@scarconfidencesheffield.co.uk">hello@scarconfidencesheffield.co.uk</a></p>
             </address>
         </div>
-
     </div>
 
-    <!-- id="privacy" is the anchor target linked from the GDPR consent text in the form -->
     <div class="footer-legal" id="privacy">
         <p>
-            <strong>Privacy notice:</strong> Information submitted via our contact form is used solely to respond to your enquiry.
+            <strong>Privacy notice:</strong> Information submitted via our contact form is used solely to
+            respond to your enquiry.
             We do not sell or share your data. Data is retained for 12 months in line with the
             UK General Data Protection Regulation (UK GDPR) and the Data Protection Act 2018.
         </p>
-        <p class="footer__copy">
-            <small>
-                <!-- id="year" is filled in by app.js with the current year automatically -->
-                &copy; <span id="year"></span> Scar Confidence. All rights reserved.
-            </small>
+        <p class="footer-copyright">
+                &copy; 2026 Scar Confidence. All rights reserved.
         </p>
     </div>
 </footer>
