@@ -43,6 +43,16 @@ require __DIR__ . "/../components/header.php";
     <section class="secondSection">
         <hr style="">
         <div class="secondSection-content">
+            <h2 class="secondSection-header">
+                Tailored solutions for improving patient recovery experiences
+            </h2>
+                <p class="secondSection-text">
+                    At Scar Confidence, we provide customized scar management solutions designed
+                    specifically for hospitals and medical professionals. Our services prioritize
+                    quality care and patient comfort, ensuring effective outcomes. By focusing on
+                    personalized solutions, we help enhance recovery and foster trust between
+                    caregivers and patients in their healing journeys.
+                </p>
             <img src="../assets/secondSectionImage.png" alt="">
         </div>
         <hr style="">
