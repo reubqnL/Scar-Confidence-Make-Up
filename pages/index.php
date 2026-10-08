@@ -42,6 +42,7 @@ require __DIR__ . "/../components/header.php";
 
     <section class="secondSection">
         <div class="secondSection-content">
+            <hr>
             <h2 class="secondSection-header">
                 Tailored solutions for improving patient recovery experiences
             </h2>
@@ -53,6 +54,7 @@ require __DIR__ . "/../components/header.php";
                 caregivers and patients in their healing journeys.
             </p>
         </div>
+        <hr class="secondSectionBottomHr">
         <!-- made the image a direct child of .secondSection so space-between will work -->
         <img src="../assets/secondSection.png" alt="A doctor talking to a patient">
     </section>
