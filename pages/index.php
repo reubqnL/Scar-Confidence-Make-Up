@@ -36,18 +36,29 @@ require __DIR__ . "/../components/header.php";
                     <h4 class="date">2025</h4>
                     </span>
                 </div>
-
-<!--                <div class="tagline-container">-->
-<!--                    <span class="tagline"><p><i>-->
-<!--                        Trusted by hospitals and the wider medical industry for over a year. We provide-->
-<!--                        authentic,<br> ethical solutions built on integrity and quality. Now expanding our-->
-<!--                        services to reach a global<br> audience.-->
-<!--                        </i></p>-->
-<!--                    </span>-->
-<!--                </div>-->
             </div>
         </div>
     </section>
+
+    <section class="secondSection">
+        <div class="secondSection-content">
+            <hr>
+            <h2 class="secondSection-header">
+                Tailored solutions for improving patient recovery experiences
+            </h2>
+            <p class="secondSection-text">
+                At Scar Confidence, we provide <strong>customised scar management solutions</strong>
+                designed specifically for hospitals and medical professionals. Our services prioritize
+                quality care and patient comfort, ensuring effective outcomes. By focusing on
+                personalized solutions, we help enhance recovery and foster trust between
+                caregivers and patients in their healing journeys.
+            </p>
+            <hr class="secondSectionBottomHr">
+        </div>
+        <!-- made the image a direct child of .secondSection so space-between will work -->
+        <img src="../assets/secondSection.png" alt="A doctor talking to a patient">
+    </section>
+
 </main>
 
 <?php require __DIR__ . "/../components/banner.php"; ?>
