@@ -36,18 +36,18 @@ require __DIR__ . "/../components/header.php";
                     <h4 class="date">2025</h4>
                     </span>
                 </div>
-
-<!--                <div class="tagline-container">-->
-<!--                    <span class="tagline"><p><i>-->
-<!--                        Trusted by hospitals and the wider medical industry for over a year. We provide-->
-<!--                        authentic,<br> ethical solutions built on integrity and quality. Now expanding our-->
-<!--                        services to reach a global<br> audience.-->
-<!--                        </i></p>-->
-<!--                    </span>-->
-<!--                </div>-->
             </div>
         </div>
     </section>
+
+    <section class="secondSection">
+        <hr style="">
+        <div class="secondSection-content">
+            <img src="../assets/secondSectionImage.png" alt="">
+        </div>
+        <hr style="">
+    </section>
+
 </main>
 
 <?php require __DIR__ . "/../components/banner.php"; ?>
