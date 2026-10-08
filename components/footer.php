@@ -9,7 +9,7 @@
             <p class="footer-tagline">Ethical Healthcare Solutions<br>Established since 2025.</p>
         </div>
 
-        <nav class="footer-nav"> <!--  aria-label="Footer navigation" -->
+        <nav class="footer-nav">
             <h3 class="footer-heading">Quick Links</h3>
             <ul role="list">
                 <li><a href="../pages/index.php">Home</a></li>
@@ -22,11 +22,9 @@
 
         <div class="footer-contact">
             <h3 class="footer-heading">Contact</h3>
-            <address>
-                <p><i></i> Meadow Lane, Fulwood, Sheffield S10 4GG</p> <!-- aria-hidden="true" -->
+                <p><i></i> Meadow Lane, Fulwood, Sheffield S10 4GG</p>
                 <p><i></i> <a href="tel:+441142000000">0114 200 0000</a></p>
                 <p><i></i> <a href="mailto:hello@scarconfidencesheffield.co.uk">hello@scarconfidencesheffield.co.uk</a></p>
-            </address>
         </div>
     </div>
 
