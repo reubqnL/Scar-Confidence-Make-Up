@@ -51,3 +51,4 @@ require __DIR__ . "/../components/header.php";
 </main>
 
 <?php require __DIR__ . "/../components/banner.php"; ?>
+<?php require __DIR__ . "/../components/footer.php"; ?>
