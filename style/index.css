@@ -168,11 +168,11 @@
 .secondSection hr {
     width: 600px;
     border: 1px solid black;
-    margin-bottom: 90px;
+    margin-bottom: 50px;
 }
 
 .secondSectionBottomHr {
     width: 600px;
     border: 1px solid black;
-    margin-bottom: 20px;
+    margin-top: 70px;
 }

@@ -53,8 +53,8 @@ require __DIR__ . "/../components/header.php";
                 personalized solutions, we help enhance recovery and foster trust between
                 caregivers and patients in their healing journeys.
             </p>
+            <hr class="secondSectionBottomHr">
         </div>
-        <hr class="secondSectionBottomHr">
         <!-- made the image a direct child of .secondSection so space-between will work -->
         <img src="../assets/secondSection.png" alt="A doctor talking to a patient">
     </section>
