@@ -130,7 +130,7 @@
     background-color: #c9e4f7;
     min-height: 690px;
     display: flex;
-    padding: 80px 60px 0 60px;
+    padding: 80px 190px 0 60px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -143,8 +143,8 @@
 }
 
 .secondSection img {
-    width: 350px;
-    height: 350px;
+    width: 500px;
+    height: 500px;
     object-fit: cover;
     border-radius: 50%;
     margin-top: 40px;
