@@ -223,3 +223,12 @@
     width: 100px;
     height: 100px;
 }
+
+/*
+Original issue (stars/text stacked vertically):
+.thirdSection-content had flex-direction: column, so all six child elements(3 <img> + 3 <p>) were laid
+out top to bottom. It was also constrained with max-width: 550px; margin-left: 190px so it couldn't spread
+across the section. There was no "star belongs to this text" relationship so flipping to row alone
+would've given star text in one line.
+Fix: wrap each pair in a .benefit column, and lay the three columns out in a row with space-between.
+*/
