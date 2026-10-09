@@ -176,3 +176,43 @@
     border: 1px solid black;
     margin-top: 70px;
 }
+
+/* THIRD SECTION */
+
+.thirdSection {
+    background-color: #f18c02;
+    min-height: 690px;
+    display: flex;
+    padding: 30px 60px;
+}
+
+.thirdSection-header {
+    font-family: "Open Sauce Sans", sans-serif;
+    color: #4a4a4a;
+    font-size: 38px;
+}
+
+.thirdSection-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 550px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17.3px;
+    color: #4a4a4a;
+    text-align: center;
+    margin-top: 250px;
+    margin-left: 190px;
+}
+
+.thirdSection p {
+    margin-bottom: 200px;
+    max-width: 220px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.thirdSection img {
+    width: 100%;
+    max-width: 100px;
+    align-self: center;
+}
