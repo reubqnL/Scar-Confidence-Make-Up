@@ -65,18 +65,18 @@ require __DIR__ . "/../components/header.php";
         </div>
 
         <div class="thirdSection-content">
-            <img src="../assets/star.svg" alt="Star picture" class="star">
-            <p>
-                <strong>Quality care</strong> provided by experienced professionals dedicated to patient satisfaction.
-            </p>
-            <img src="../assets/star.svg" alt="Star picture" class="star">
-            <p>
-                <strong>Personalized solutions</strong> tailored to meet the unique needs of each medical facility.
-            </p>
-            <img src="../assets/star.svg" alt="Star picture" class="star">
-            <p>
-                <strong>Trusted expertise</strong> built on strong relationships within the medical community for over a year.
-            </p>
+            <div class="benefit">
+                <img src="../assets/star.svg" alt="Star picture" class="star">
+                <p><strong>Quality care</strong> provided by experienced professionals dedicated to patient satisfaction.</p>
+            </div>
+            <div class="benefit">
+                <img src="../assets/star.svg" alt="Star picture" class="star">
+                <p><strong>Personalized solutions</strong> tailored to meet the unique needs of each medical facility.</p>
+            </div>
+            <div class="benefit">
+                <img src="../assets/star.svg" alt="Star picture" class="star">
+                <p><strong>Trusted expertise</strong> built on strong relationships within the medical community for over a year.</p>
+            </div>
         </div>
     </section>
 
