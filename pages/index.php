@@ -93,6 +93,7 @@ require __DIR__ . "/../components/header.php";
                 quality care tailored to their unique needs. This approach not only promotes healing but
                 also fosters trust between medical professionals and patients.
             </p>
+            <button id="toAbout">Learn More</button>
         </div>
         <img src="../assets/fourthSection.png" alt="A comparison of before and after using the product">
     </section>
