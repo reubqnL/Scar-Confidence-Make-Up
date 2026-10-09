@@ -1,5 +1,29 @@
 @import url("https://unpkg.com/@fontsource/open-sauce-sans@latest/index.css");
 
+/* BOUNCE ANIMATION FROM - https://www.geeksforgeeks.org/css/how-to-create-a-bounce-in-and-out-on-scroll-effect-using-css/ */
+
+@keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-8px);
+    }
+
+    60% {
+        transform: translateY(-4px);
+    }
+}
+
+.scroll-bounce {
+    animation: bounce 2s infinite;
+}
+
 /* LANDING PAGE */
 
 .hero {

@@ -29,7 +29,15 @@ require __DIR__ . "/../components/header.php";
                 width: calc(55% - 70px);
                 margin-left: 30px;
             "></span>
-
+            <div class="scroll-bounce" style="
+            text-align: center;
+            cursor: pointer; margin-top: 20px;
+            margin-left: 220px;     background: #121FCF;
+            background: linear-gradient(90deg, #005f84, #1e8fbb, #1e8fbb);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;">
+                <span style="font-size: 32px;">↓</span>
+            </div>
             <div class="hero-details">
                 <div class="tag">
                     <span class="established"><h4>Established:</h4>
@@ -39,8 +47,9 @@ require __DIR__ . "/../components/header.php";
             </div>
             <hr>
         </div>
+        </div>
     </section>
-
+    </div>
     <section class="secondSection">
         <div class="secondSection-content">
             <hr>
