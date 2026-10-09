@@ -233,3 +233,44 @@ across the section. There was no "star belongs to this text" relationship so fli
 would've given star text in one line.
 Fix: wrap each pair in a .benefit column, and lay the three columns out in a row with space-between.
 */
+
+/* FOURTH SECTION */
+
+.fourthSection {
+    background-color: #c9e4f7;
+    min-height: 690px;
+    display: flex;
+    padding: 30px 190px 0 60px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.fourthSection-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.fourthSection img {
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 40px 60px;
+}
+
+.fourthSection-header {
+    font-size: 38px;
+    font-family: "Open Sauce Sans", sans-serif;
+    max-width: 550px;
+    color: #4a4a4a;
+}
+
+.fourthSection-text {
+    font-size: 17.3px;
+    font-family: "DM Sans", sans-serif;
+    text-align: left;
+    color: #4a4a4a;
+    max-width: 450px;
+}
