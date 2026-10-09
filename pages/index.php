@@ -98,6 +98,22 @@ require __DIR__ . "/../components/header.php";
         <img src="../assets/fourthSection.png" alt="A comparison of before and after using the product">
     </section>
 
+    <section class="fifthSection">
+        <img src="../assets/fifthSection.png" alt="A doctor talking to a patient">
+        <div class="fifthSection-content">
+            <hr class="secondSectionBottomHr">
+            <h2 class="fifthSection-header">
+                Innovative Scar Therapy
+            </h2>
+            <p class="fifthSection-text">
+                Our innovative scar therapy solutions provide <strong>personalized care</strong> designed
+                to enhance healing, improve outcomes, and foster confidence. We empower patients and
+                support medical professionals with effective, ethical treatment options.
+            </p>
+            <button id="toDirectory">Get started</button>
+        </div>
+    </section>
+
 </main>
 
 <?php require __DIR__ . "/../components/banner.php"; ?>

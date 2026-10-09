@@ -292,3 +292,62 @@ Fix: wrap each pair in a .benefit column, and lay the three columns out in a row
     transition: transform 0.2s ease-in-out; /* Smooth hover animation */
     transform: scale(1.07);
 }
+
+/* FIFTH SECTION */
+
+.fifthSection {
+    background-color: #f18c02;
+    min-height: 690px;
+    display: flex;
+    padding: 30px 190px 0 60px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.fifthSection-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.fifthSection img {
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 40px 60px;
+}
+
+.fifthSection-header {
+    font-size: 38px;
+    font-family: "Open Sauce Sans", sans-serif;
+    max-width: 550px;
+    color: #4a4a4a;
+}
+
+.fifthSection-text {
+    font-size: 17.3px;
+    font-family: "DM Sans", sans-serif;
+    text-align: left;
+    color: #4a4a4a;
+    max-width: 450px;
+}
+
+#toDirectory {
+    text-decoration: none;
+    border-radius: 20px;
+    background: #c9e4f7;
+    border: 1px solid;
+    height: 40px;
+    width: 160px;
+    font-size: 20px;
+    flex-shrink: 0;
+    cursor: pointer;
+    font-family: "Roboto Mono", sans-serif;
+}
+
+#toDirectory:hover {
+    transition: transform 0.2s ease-in-out; /* Smooth hover animation */
+    transform: scale(1.07);
+}
