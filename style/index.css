@@ -351,3 +351,62 @@ Fix: wrap each pair in a .benefit column, and lay the three columns out in a row
     transition: transform 0.2s ease-in-out; /* Smooth hover animation */
     transform: scale(1.07);
 }
+
+/* SIXTH SECTION */
+.sixthSection {
+    min-height: 690px;
+    display: flex;
+    padding: 30px 190px 0 60px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start; /* Aligns header to the top-left */
+    flex-wrap: nowrap;
+}
+
+.sixthSection-header {
+    font-size: 38px;
+    font-family: "Open Sauce Sans", sans-serif;
+    color: #4a4a4a;
+}
+
+/* Container holding the list of testimonials on the right */
+.sixthSection-testimonials {
+    display: flex;
+    flex-direction: column;
+    gap: 40px; /* Space between each testimonial card */
+}
+
+/* Individual testimonial block: Image on left, text stack on right */
+.client-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Image on the left of each card */
+.client-card img {
+    width: 150px; /* Adjust size if 450px was intended for a massive avatar, or keep 450px if it's a large feature */
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+
+/* Text stack on the right: Title above, text below */
+.sixthSection-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.client-title {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.client-text {
+    font-family: "Roboto Mono", sans-serif;
+    max-width: 400px;
+    margin: 0;
+}
