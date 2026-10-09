@@ -354,6 +354,21 @@ Fix: wrap each pair in a .benefit column, and lay the three columns out in a row
 
 /* SIXTH SECTION */
 
+.sixthSection {
+    min-height: 690px;
+    display: flex;
+    padding: 30px 190px 0 60px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.sixthSection-content {
+    display: flex;
+    flex-direction: column;
+}
+
 .sixthSection-header {
     font-size: 38px;
     font-family: "Open Sauce Sans", sans-serif;
@@ -363,4 +378,17 @@ Fix: wrap each pair in a .benefit column, and lay the three columns out in a row
 .client-title {
     font-family: "DM Sans", sans-serif;
     font-size: 13.7px;
+}
+
+.client-text {
+    font-family: "Roboto Mono", sans-serif;
+    max-width: 400px;
+}
+
+.sixthSection img {
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 40px 60px;
 }

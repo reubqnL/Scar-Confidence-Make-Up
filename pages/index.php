@@ -115,39 +115,48 @@ require __DIR__ . "/../components/header.php";
     </section>
 
     <section class="sixthSection">
-        <div class="sixthSection-content">
+        <div class="sixthSection-header-wrapper">
             <h2 class="sixthSection-header">
                 Client Testimonials
             </h2>
         </div>
+
         <div class="sixthSection-testimonials">
+            <!-- Client 1 -->
+            <div class="client-card">
+                <img src="../assets/firstClient.png" alt="An image of a doctor">
+                <div class="sixthSection-content">
+                    <h3 class="client-title">Dr. Michael, Physician</h3>
+                    <p class="client-text">
+                        “Scar Confidence provided unparalleled support and exceptional service that truly
+                        transformed my patients’ recovery experiences. Highly recommend!”
+                    </p>
+                </div>
+            </div>
 
-            <img src="../assets/firstClient.png" alt="An image of a doctor">
-            <h3 class="client-title">
-                Dr. Michael, Physician
-            </h3>
-            <p class="client-text">
-                “Scar Confidence provided unparalleled support and exceptional service that truly
-                transformed my patients’ recovery experiences. Highly recommend!”
-            </p>
+            <!-- Client 2 -->
+            <div class="client-card">
+                <img src="../assets/secondClient.png" alt="An image of a nurse">
+                <div class="sixthSection-content">
+                    <h3 class="client-title">Sarah, Nurse</h3>
+                    <p class="client-text">
+                        “The results we’ve seen using Scar Confidence's solutions are remarkable. The team is
+                        dedicated and always available for support.”
+                    </p>
+                </div>
+            </div>
 
-            <img src="../assets/secondClient.png" alt="An image of a nurse">
-            <h3 class="client-title">
-                Sarah, Nurse
-            </h3>
-            <p class="client-text">
-                “The results we’ve seen using Scar Confidence's solutions are remarkable. The team is
-                dedicated and always available for support.”
-            </p>
-
-            <img src="../assets/thirdClient.png" alt="An image of an administrator">
-            <h3 class="client-title">
-                Tom, Administrator
-            </h3>
-            <p class="client-text">
-                “Working with Scar Confidence has improved our patient outcomes significantly. Their
-                professionalism and commitment are commendable.”
-            </p>
+            <!-- Client 3 -->
+            <div class="client-card">
+                <img src="../assets/thirdClient.png" alt="An image of an administrator">
+                <div class="sixthSection-content">
+                    <h3 class="client-title">Tom, Administrator</h3>
+                    <p class="client-text">
+                        “Working with Scar Confidence has improved our patient outcomes significantly. Their
+                        professionalism and commitment are commendable.”
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
 
