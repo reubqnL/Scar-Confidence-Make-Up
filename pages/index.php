@@ -101,13 +101,12 @@ require __DIR__ . "/../components/header.php";
     <section class="fifthSection">
         <div class="fifthSection-content">
             <h2 class="fifthSection-header">
-                Comprehensive Solutions
+                Innovative Scar Therapy
             </h2>
             <p class="fifthSection-text">
-                Our comprehensive scar management solutions are designed to enhance recovery and improve
-                outcomes. By focusing on personalized treatment plans, we ensure that each patient receives
-                quality care tailored to their unique needs. This approach not only promotes healing but
-                also fosters trust between medical professionals and patients.
+                Our innovative scar therapy solutions provide personalized care designed to enhance
+                healing, improve outcomes, and foster confidence. We empower patients and support medical
+                professionals with effective, ethical treatment options.
             </p>
             <button id="toDirectory">Get started</button>
         </div>
