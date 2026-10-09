@@ -98,6 +98,22 @@ require __DIR__ . "/../components/header.php";
         <img src="../assets/fourthSection.png" alt="A comparison of before and after using the product">
     </section>
 
+    <section class="fifthSection">
+        <div class="fifthSection-content">
+            <h2 class="fifthSection-header">
+                Comprehensive Solutions
+            </h2>
+            <p class="fifthSection-text">
+                Our comprehensive scar management solutions are designed to enhance recovery and improve
+                outcomes. By focusing on personalized treatment plans, we ensure that each patient receives
+                quality care tailored to their unique needs. This approach not only promotes healing but
+                also fosters trust between medical professionals and patients.
+            </p>
+            <button id="toDirectory">Get started</button>
+        </div>
+        <img src="../assets/fifthSection.png" alt="A doctor talking to a patient">
+    </section>
+
 </main>
 
 <?php require __DIR__ . "/../components/banner.php"; ?>
