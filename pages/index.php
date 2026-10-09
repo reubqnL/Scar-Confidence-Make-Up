@@ -100,6 +100,7 @@ require __DIR__ . "/../components/header.php";
 
     <section class="fifthSection">
         <div class="fifthSection-content">
+            <hr class="secondSectionBottomHr">
             <h2 class="fifthSection-header">
                 Innovative Scar Therapy
             </h2>
