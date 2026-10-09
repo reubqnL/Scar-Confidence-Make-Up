@@ -177,19 +177,37 @@
     margin-top: 70px;
 }
 
-/* SECOND SECTION */
+/* THIRD SECTION */
 
 .thirdSection {
     background-color: #f18c02;
     min-height: 690px;
     display: flex;
-    padding: 30px 190px 0 60px;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 60px;
+    padding: 30px 60px;
     flex-wrap: nowrap;
 }
 
-.third-section-content {
-    justify-content: space-between;
+.thirdSection-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 550px;
+}
+
+.thirdSection-header {
+    font-family: "Open Sauce Sans", sans-serif;
+    color: #4a4a4a;
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.thirdSection-text {
+    font-family: "DM Sans", sans-serif;
+    font-size: 17.3px;
+    color: #4a4a4a;
+    text-align: left;
 }

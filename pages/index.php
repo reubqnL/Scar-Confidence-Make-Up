@@ -61,12 +61,12 @@ require __DIR__ . "/../components/header.php";
 
     <section class="thirdSection">
         <div class="thirdSection-content">
-            <hr>
             <h2 class="thirdSection-header">
                 Key Benefits
             </h2>
             <p class="thirdSection-text">
-
+                <strong>Quality care</strong> provided by experienced professionals dedicated to
+                patient satisfaction.
             </p>
         </div>
     </section>
