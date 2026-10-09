@@ -99,6 +99,7 @@ require __DIR__ . "/../components/header.php";
     </section>
 
     <section class="fifthSection">
+        <img src="../assets/fifthSection.png" alt="A doctor talking to a patient">
         <div class="fifthSection-content">
             <hr class="secondSectionBottomHr">
             <h2 class="fifthSection-header">
@@ -111,7 +112,6 @@ require __DIR__ . "/../components/header.php";
             </p>
             <button id="toDirectory">Get started</button>
         </div>
-        <img src="../assets/fifthSection.png" alt="A doctor talking to a patient">
     </section>
 
 </main>
