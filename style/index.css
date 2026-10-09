@@ -274,3 +274,21 @@ Fix: wrap each pair in a .benefit column, and lay the three columns out in a row
     color: #4a4a4a;
     max-width: 450px;
 }
+
+#toAbout {
+    text-decoration: none;
+    border-radius: 20px;
+    background: #FCA332;
+    border: 1px solid;
+    height: 40px;
+    width: 160px;
+    font-size: 20px;
+    flex-shrink: 0;
+    cursor: pointer;
+    font-family: "Roboto Mono", sans-serif;
+}
+
+#toAbout:hover {
+    transition: transform 0.2s ease-in-out; /* Smooth hover animation */
+    transform: scale(1.07);
+}

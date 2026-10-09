@@ -15,5 +15,6 @@ require __DIR__ . "/../components/header.php";
     Let’s get you back to where you need to be.
 </p>
 <button id="toHome">Home</button>
+<script src="../scripts/buttons.js"></script>
 </div>
 </div>
