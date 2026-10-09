@@ -34,3 +34,5 @@
         </p>
     </div>
 </footer>
+
+<script src="../scripts/buttons.js"></script>
