@@ -183,31 +183,35 @@
     background-color: #f18c02;
     min-height: 690px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 60px;
     padding: 30px 60px;
-    flex-wrap: nowrap;
-}
-
-.thirdSection-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    max-width: 550px;
 }
 
 .thirdSection-header {
     font-family: "Open Sauce Sans", sans-serif;
     color: #4a4a4a;
     font-size: 38px;
-    margin-bottom: 20px;
 }
 
-.thirdSection-text {
+.thirdSection-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 550px;
     font-family: "DM Sans", sans-serif;
     font-size: 17.3px;
     color: #4a4a4a;
-    text-align: left;
+    text-align: center;
+    margin-top: 250px;
+    margin-left: 190px;
+}
+
+.thirdSection p {
+    margin-bottom: 200px;
+    max-width: 220px;
+}
+
+.thirdSection img {
+    width: 100%;
+    max-width: 100px;
+    align-self: center;
 }

@@ -60,13 +60,22 @@ require __DIR__ . "/../components/header.php";
     </section>
 
     <section class="thirdSection">
+        <div class="thirdSection-header">
+            <h2>Key Benefits</h2>
+        </div>
+
         <div class="thirdSection-content">
-            <h2 class="thirdSection-header">
-                Key Benefits
-            </h2>
-            <p class="thirdSection-text">
-                <strong>Quality care</strong> provided by experienced professionals dedicated to
-                patient satisfaction.
+            <img src="../assets/star.svg" alt="Star picture" class="star">
+            <p>
+                <strong>Quality care</strong> provided by experienced professionals dedicated to patient satisfaction.
+            </p>
+            <img src="../assets/star.svg" alt="Star picture" class="star">
+            <p>
+                <strong>Personalized solutions</strong> tailored to meet the unique needs of each medical facility.
+            </p>
+            <img src="../assets/star.svg" alt="Star picture" class="star">
+            <p>
+                <strong>Trusted expertise</strong> built on strong relationships within the medical community for over a year.
             </p>
         </div>
     </section>
