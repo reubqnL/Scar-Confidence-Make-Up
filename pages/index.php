@@ -79,6 +79,22 @@ require __DIR__ . "/../components/header.php";
                 <p><strong>Trusted expertise</strong> built on strong relationships within the medical community for over a year.</p>
             </div>
         </div>
+        <hr class="secondSectionBottomHr">
+    </section>
+
+    <section class="fourthSection">
+        <div class="fourthSection-content">
+            <h2 class="fourthSection-header">
+                Comprehensive Solutions
+            </h2>
+            <p class="fourthSection-text">
+                Our comprehensive scar management solutions are designed to enhance recovery and improve
+                outcomes. By focusing on personalized treatment plans, we ensure that each patient receives
+                quality care tailored to their unique needs. This approach not only promotes healing but
+                also fosters trust between medical professionals and patients.
+            </p>
+        </div>
+        <img src="../assets/fourthSection.png" alt="A comparison of before and after using the product">
     </section>
 
 </main>
