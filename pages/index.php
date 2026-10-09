@@ -157,6 +157,11 @@ require __DIR__ . "/../components/header.php";
                     </p>
                 </div>
             </div>
+            <hr style="
+    width: 600px;
+    border: 1px solid black;
+    margin-top: 70px;
+}"
         </div>
     </section>
 
