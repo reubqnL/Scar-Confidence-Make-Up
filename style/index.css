@@ -42,7 +42,7 @@
 }
 
 .hero-content hr {
-    margin-bottom: 65px;
+    margin-bottom: 65§xpx;
 }
 
 .hero-content h3 {
@@ -81,6 +81,7 @@
 .date {
     font-family: "Open Sauce Sans", sans-serif;
     font-size: 14.3px;
+    margin-top: 100px;
 }
 
 .established {
@@ -183,6 +184,7 @@
     background-color: #f18c02;
     min-height: 690px;
     display: flex;
+    flex-direction: column;
     padding: 30px 60px;
 }
 
@@ -194,25 +196,40 @@
 
 .thirdSection-content {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
-    max-width: 550px;
+    align-items: flex-start;
+    width: 100%;
     font-family: "DM Sans", sans-serif;
     font-size: 17.3px;
     color: #4a4a4a;
     text-align: center;
-    margin-top: 250px;
-    margin-left: 190px;
+    margin-top: 150px;
+}
+
+.benefit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 0;
 }
 
 .thirdSection p {
-    margin-bottom: 200px;
     max-width: 220px;
+    margin: 20px 0 0;
     font-family: "DM Sans", sans-serif;
 }
 
-.thirdSection img {
-    width: 100%;
-    max-width: 100px;
-    align-self: center;
+.thirdSection img.star {
+    width: 100px;
+    height: 100px;
 }
+
+/*
+Original issue (stars/text stacked vertically):
+.thirdSection-content had flex-direction: column, so all six child elements(3 <img> + 3 <p>) were laid
+out top to bottom. It was also constrained with max-width: 550px; margin-left: 190px so it couldn't spread
+across the section. There was no "star belongs to this text" relationship so flipping to row alone
+would've given star text in one line.
+Fix: wrap each pair in a .benefit column, and lay the three columns out in a row with space-between.
+*/

@@ -37,6 +37,7 @@ require __DIR__ . "/../components/header.php";
                     </span>
                 </div>
             </div>
+            <hr>
         </div>
     </section>
 
