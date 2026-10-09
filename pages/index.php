@@ -136,7 +136,7 @@ require __DIR__ . "/../components/header.php";
 
             <!-- Client 2 -->
             <div class="client-card">
-                <img src="../assets/secondClient.png" alt="An image of a nurse">
+                <img src="../assets/secondClient.jpg" alt="An image of a nurse">
                 <div class="sixthSection-content">
                     <h3 class="client-title">Sarah, Nurse</h3>
                     <p class="client-text">
@@ -148,7 +148,7 @@ require __DIR__ . "/../components/header.php";
 
             <!-- Client 3 -->
             <div class="client-card">
-                <img src="../assets/thirdClient.png" alt="An image of an administrator">
+                <img src="../assets/thirdClient.jpg" alt="An image of an administrator">
                 <div class="sixthSection-content">
                     <h3 class="client-title">Tom, Administrator</h3>
                     <p class="client-text">
