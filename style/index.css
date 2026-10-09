@@ -354,3 +354,13 @@ Fix: wrap each pair in a .benefit column, and lay the three columns out in a row
 
 /* SIXTH SECTION */
 
+.sixthSection-header {
+    font-size: 38px;
+    font-family: "Open Sauce Sans", sans-serif;
+    color: #4a4a4a;
+}
+
+.client-title {
+    font-family: "DM Sans", sans-serif;
+    font-size: 13.7px;
+}
