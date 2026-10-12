@@ -1,3 +1,5 @@
+@import "../style/variables";
+
 .header {
     display: flex;
     flex-direction: row;
@@ -26,7 +28,7 @@
 nav {
     display: flex;
     gap: 40px;
-    font-family: "DM Sans", sans-serif;
+    font-family: $font-sans;
     padding: 0;
 
     a {
@@ -37,7 +39,7 @@ nav {
 
         &:hover {
             transform: scale(1.07);
-            color: #1e8fbb;
+            color: $color-hover;
         }
     }
 }
@@ -51,7 +53,7 @@ nav {
 }
 
 h1 {
-    color: #005f84;
+    color: $color-primary;
     font-weight: 500;
     font-size: 24px;
     margin: 0 0 0 10px;

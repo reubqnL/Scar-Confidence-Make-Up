@@ -1,3 +1,5 @@
+@import "../style/variables";
+
 /* FOOTER */
 
 footer {
@@ -16,38 +18,38 @@ footer {
 }
 
 .footer-name {
-  font-family: "DM Sans", sans-serif;
+  font-family: $font-sans;
   font-size: 23px;
   font-weight: 600;
 }
 
 .footer-tagline {
-  font-family: "Roboto Mono", sans-serif;
+  font-family: $font-mono;
 }
 
 .footer-legal {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-family: "Roboto Mono", sans-serif;
+  font-family: $font-mono;
   font-size: 12px;
   padding: 20px;
   cursor: help;
 }
 
 .footer-contact {
-  font-family: "Roboto Mono", sans-serif;
+  font-family: $font-mono;
 
   a {
     text-decoration: none;
     color: inherit;
 
     &:hover {
-      color: #1e8fbb;
+      color: $color-hover;
     }
   }
 }
 
 .footer-heading {
-  font-family: "DM Sans", sans-serif;
+  font-family: $font-sans;
 }
