@@ -1,9 +1,16 @@
-h1 {
+body {
+  background: gray;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body p {
+  text-align: center;
   color: red;
 }
-
-body {
-  background-color: gray;
+body p:hover {
+  color: purple;
 }
 
 /*# sourceMappingURL=sass.css.map */

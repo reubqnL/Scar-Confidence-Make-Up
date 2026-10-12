@@ -1,9 +1,24 @@
-$color-red: red;
-$background-gray: gray;
+$col: red;
+$bg: gray;
+$font-weights: (
+  "regular" : 400,
+  "medium" : 500,
+  "bold" : 2000
+);
 
-h1 {
-  color: $color-red;
-}
 body {
-  background-color: $background-gray;
+  background: $bg;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p {
+    text-align: center;
+    color: $col;
+
+    &:hover {
+      color: purple;
+    }
+  }
 }
+
