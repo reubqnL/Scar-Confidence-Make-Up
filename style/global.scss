@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import "../style/header";
+
+
+* {
+    box-sizing: border-box;
+    /*
+    It ensures that any padding or borders you add are included inside an
+    element's total width and height, preventing items from unexpectedly stretching past their containers
+    */
+
+}
+
+html {
+    overflow-y: scroll;
+    overflow-x: auto;
+}
+
+body {
+    margin: 0 auto 0 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: auto;
+    position: relative;
+    background: radial-gradient(circle at 50% 50%, #acccec, #d5e5f6);
+}
