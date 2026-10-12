@@ -24,4 +24,4 @@ git stash pop
 
 git stash list
 
-USE THIS LATER ON https://www.geeksforgeeks.org/css/how-to-create-a-bounce-in-and-out-on-scroll-effect-using-css/
+DON'T EDIT DIRECTLY INTO `.css` FILES, EDIT IN `.sass` - FILE WATCHER WILL AUTO COMPILE IT
