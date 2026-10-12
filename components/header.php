@@ -5,8 +5,6 @@
     <title><?php echo "Scar Confidence | $pageTitle"?></title>
     <link rel="stylesheet" href="../style/global.css">
     <link rel="stylesheet" href="../style/<?php echo $pageCSS?>">
-    <link rel="stylesheet" href="../style/header.css">
-    <link rel="stylesheet" href="../style/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 

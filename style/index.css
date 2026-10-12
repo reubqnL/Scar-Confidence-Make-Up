@@ -1,7 +1,7 @@
 /* BOUNCE ANIMATION */
 @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0);
+    transform: translateY(-80px);
   }
   40% {
     transform: translateY(-32px);
@@ -20,6 +20,7 @@
   flex-flow: row wrap;
   align-items: center;
   width: 100%;
+  max-height: 690px;
 }
 
 .hero-content {

@@ -25,3 +25,11 @@ git stash pop
 git stash list
 
 DON'T EDIT DIRECTLY INTO `.css` FILES, EDIT IN `.scss` - FILE WATCHER WILL AUTO COMPILE IT
+
+#### Running React
+
+npm run dev - Live updates for a preview site on localhost
+
+npm run build - Compile all your code
+
+npx sass style/global.scss style/global.css

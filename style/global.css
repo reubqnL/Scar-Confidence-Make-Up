@@ -5,12 +5,11 @@
   flex-direction: row;
   align-items: center;
   position: static;
-  width: 100%;
   margin: 0;
+  text-decoration: none;
 }
 .header img {
-  width: 100%;
-  max-width: 45px;
+  width: 45px;
   height: auto;
   object-fit: contain;
   flex-shrink: 0;
@@ -51,9 +50,10 @@ nav a:hover {
 
 h1 {
   color: #005f84;
+  font-family: "DM Sans", sans-serif;
   font-weight: 500;
   font-size: 24px;
-  margin: 0 0 0 10px;
+  margin-right: 400px;
 }
 
 .active {
