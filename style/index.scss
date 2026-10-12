@@ -1,13 +1,4 @@
-// Variables
-$font-sans: "DM Sans", sans-serif;
-$font-sauce: "Open Sauce Sans", sans-serif;
-$font-mono: "Roboto Mono", sans-serif;
-
-$color-primary: #005f84;
-$color-gradient: linear-gradient(90deg, #005f84, #1e8fbb, #1e8fbb);
-$color-dark: #4a4a4a;
-$color-bg-light: #c9e4f7;
-$color-bg-orange: #f18c02;
+@import "../style/variables";
 
 /* BOUNCE ANIMATION */
 @keyframes bounce {

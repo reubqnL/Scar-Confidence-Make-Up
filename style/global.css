@@ -69,6 +69,11 @@ footer {
   padding: 20px;
   background-color: #9dd1f6;
 }
+footer hr {
+  width: 100%;
+  max-width: 250px;
+  border: 1px solid black;
+}
 
 .footer-name {
   font-family: "DM Sans", sans-serif;
@@ -93,24 +98,16 @@ footer {
 .footer-contact {
   font-family: "Roboto Mono", sans-serif;
 }
-
 .footer-contact a {
   text-decoration: none;
   color: inherit;
 }
-
 .footer-contact a:hover {
   color: #1e8fbb;
 }
 
 .footer-heading {
   font-family: "DM Sans", sans-serif;
-}
-
-footer hr {
-  width: 100%;
-  max-width: 250px;
-  border: 1px solid black;
 }
 
 * {
