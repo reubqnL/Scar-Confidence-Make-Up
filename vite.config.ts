@@ -1,15 +1,14 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import { resolve } from 'path'
 
 export default defineConfig({
     plugins: [react()],
     build: {
         rollupOptions: {
-            input: './scripts/main.tsx',
-            output: {
-                entryFileNames: 'dist/assets/app.js',
-                assetFileNames: 'dist/assets/[name].[ext]'
+            input: {
+                contact: resolve(import.meta.dirname, 'scripts/contact.tsx'),
             }
         }
     }
-});
+})
