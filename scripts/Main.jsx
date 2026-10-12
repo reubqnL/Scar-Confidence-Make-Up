@@ -7,3 +7,5 @@ if (container) {
     const root = createRoot(container);
     root.render(<App/>);
 }
+
+// the only job of this file is to start react

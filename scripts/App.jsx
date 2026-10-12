@@ -14,3 +14,5 @@ export default function App() {
         </div>
     );
 }
+
+// update when adding componenets to the page

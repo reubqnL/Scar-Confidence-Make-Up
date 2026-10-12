@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function ContactForm({ contact }) {
+function ContactForm({ contact }) {
     function onFav() {
         alert("Favorited!");
     }
@@ -25,3 +25,5 @@ export default function ContactForm({ contact }) {
         </div>
     );
 }
+
+export default ContactForm;
