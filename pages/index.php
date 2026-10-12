@@ -31,8 +31,9 @@ require __DIR__ . "/../components/header.php";
             "></span>
             <div class="scroll-bounce" style="
             text-align: center;
-            cursor: pointer; margin-top: 20px;
-            margin-left: 220px;     background: #121FCF;
+            cursor: pointer;
+            margin-left: 220px;
+            background: #121FCF;
             background: linear-gradient(90deg, #005f84, #1e8fbb, #1e8fbb);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;">

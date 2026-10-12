@@ -1,14 +1,13 @@
-@import url("https://unpkg.com/@fontsource/open-sauce-sans@latest/index.css");
 /* BOUNCE ANIMATION */
 @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
     transform: translateY(0);
   }
   40% {
-    transform: translateY(-8px);
+    transform: translateY(-32px);
   }
   60% {
-    transform: translateY(-4px);
+    transform: translateY(-24px);
   }
 }
 .scroll-bounce {
@@ -72,7 +71,7 @@
   width: min(512px, max(288px, 65%));
   max-width: 100%;
   min-width: 0;
-  transform: translateY(-285px);
+  transform: translateY(-320px);
 }
 
 .tag {
@@ -90,7 +89,7 @@
 .date {
   font-family: "Open Sauce Sans", sans-serif;
   font-size: 14.3px;
-  margin-top: 100px;
+  margin-top: 0px;
 }
 
 .established {

@@ -1,0 +1,55 @@
+@import "../style/variables";
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: #9dd1f6;
+
+  hr {
+    width: 100%;
+    max-width: 250px;
+    border: 1px solid black;
+  }
+}
+
+.footer-name {
+  font-family: $font-sans;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.footer-tagline {
+  font-family: $font-mono;
+}
+
+.footer-legal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: $font-mono;
+  font-size: 12px;
+  padding: 20px;
+  cursor: help;
+}
+
+.footer-contact {
+  font-family: $font-mono;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+
+    &:hover {
+      color: $color-hover;
+    }
+  }
+}
+
+.footer-heading {
+  font-family: $font-sans;
+}

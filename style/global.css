@@ -1,24 +1,138 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://unpkg.com/@fontsource/open-sauce-sans@latest/index.css");
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: static;
+  width: 100%;
+  margin: 0;
+}
+.header img {
+  width: 100%;
+  max-width: 45px;
+  height: auto;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.headerTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px 50px;
+}
+
+nav {
+  display: flex;
+  gap: 40px;
+  font-family: "DM Sans", sans-serif;
+  padding: 0;
+}
+nav a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+nav a:hover {
+  transform: scale(1.07);
+  color: #1e8fbb;
+}
+
+.headerSeparator {
+  border: none;
+  height: 2px;
+  background: linear-gradient(to right, black, transparent);
+  width: calc(70% - 70px);
+  margin: 0 0 0 30px;
+}
+
+h1 {
+  color: #005f84;
+  font-weight: 500;
+  font-size: 24px;
+  margin: 0 0 0 10px;
+}
+
+.active {
+  font-weight: 700 !important;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: #9dd1f6;
+}
+footer hr {
+  width: 100%;
+  max-width: 250px;
+  border: 1px solid black;
+}
+
+.footer-name {
+  font-family: "DM Sans", sans-serif;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.footer-tagline {
+  font-family: "Roboto Mono", sans-serif;
+}
+
+.footer-legal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 12px;
+  padding: 20px;
+  cursor: help;
+}
+
+.footer-contact {
+  font-family: "Roboto Mono", sans-serif;
+}
+.footer-contact a {
+  text-decoration: none;
+  color: inherit;
+}
+.footer-contact a:hover {
+  color: #1e8fbb;
+}
+
+.footer-heading {
+  font-family: "DM Sans", sans-serif;
+}
 
 * {
-    box-sizing: border-box;
-    /*
-    It ensures that any padding or borders you add are included inside an
-    element's total width and height, preventing items from unexpectedly stretching past their containers
-    */
-
+  box-sizing: border-box;
+  /*
+  It ensures that any padding or borders you add are included inside an
+  element's total width and height, preventing items from unexpectedly stretching past their containers
+  */
 }
 
 html {
-    overflow-y: scroll;
-    overflow-x: auto;
+  overflow-y: scroll;
+  overflow-x: auto;
 }
 
 body {
-    margin: 0 auto 0 0;
-    padding: 0;
-    width: 100%;
-    overflow-x: auto;
-    position: relative;
-    background: radial-gradient(circle at 50% 50%, #acccec, #d5e5f6);
+  margin: 0 auto 0 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: auto;
+  position: relative;
+  background: radial-gradient(circle at 50% 50%, #acccec, #d5e5f6);
 }
+
+/* Combined Google Fonts (DM Sans, Roboto Mono, Rubik) */
+/* Open Sauce Sans */
+
+/*# sourceMappingURL=global.css.map */
