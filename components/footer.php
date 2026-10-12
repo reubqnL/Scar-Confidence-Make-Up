@@ -1,8 +1,6 @@
 <!-- FOOTER WAS MADE BY @Ini - I will commit on behalf of him. -->
 
 <?php ?>
-
-<link rel="stylesheet" href="../style/footer.css">
 <footer>
     <div class="footer-inner">
         <div class="footer-brand">
