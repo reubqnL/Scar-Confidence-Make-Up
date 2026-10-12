@@ -5,7 +5,6 @@ function ContactForm({ contact }) {
         alert("Favorited!");
     }
 
-    // Safety fallback: prevent crash if contact data is missing
     if (!contact) {
         return <div className="contact-card">No contact data available.</div>;
     }
