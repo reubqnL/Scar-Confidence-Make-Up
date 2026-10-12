@@ -1,19 +1,24 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 
-function App() {
-    return (
-        <>
-            <Text display="whats up"/>
-            <Text display="hello"/>
-        </>
-    )
-}
+function ContactCard({contact}) {
 
-function Text({display}) {
+    function onFav() {
+        alert("Favorited!")
+    }
+
     return (
-        <div>
-            <p>{display}</p>
+        <div className="contact-card">
+            <div className="contact-poster">
+                <img src={contact.url} alt={contact.title}/>
+                <div className="contact-overlay">
+                    <button className="favorite-btn" onClick={onFav}> X </button>
+                </div>
+            </div>
+            <div className="contact-info">
+                <h3>{contact.title}</h3>
+                <p>{contact.release_date}</p>
+            </div>
         </div>
     )
 }
