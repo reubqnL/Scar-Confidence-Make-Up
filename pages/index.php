@@ -34,7 +34,6 @@ require __DIR__ . "/../components/header.php";
             cursor: pointer;
             margin-left: 220px;
             background: #121FCF;
-            transform: translatey(-20px)!important;
             background: linear-gradient(90deg, #005f84, #1e8fbb, #1e8fbb);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;">
