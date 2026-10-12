@@ -1,12 +1,14 @@
 import React from 'react';
 
-function ContactForm({ contact }) {
+function ContactForm() {
+    const contact = {
+        title: "Scar Confidence Support",
+        release_date: "Active 24/7",
+        url: "https://via.placeholder.com/150"
+    };
+
     function onFav() {
         alert("Favorited!");
-    }
-
-    if (!contact) {
-        return <div className="contact-card">No contact data available.</div>;
     }
 
     return (

@@ -1,17 +1,15 @@
 import React from 'react';
 import ContactForm from './components/ContactForm';
+// whatever the components are
 
 export default function App() {
-    const ourData = {
-        title: "Scar Confidence Support",
-        release_date: "Active 24/7",
-    };
+    const path = window.location.pathname;
 
     return (
         <div>
-            <ContactForm contact={ourData} />
+            {/* check the url and render the right component */}
+            {path.includes('contact') && <ContactForm />}
+            {path.includes('about') && <AboutContent />}
         </div>
     );
 }
-
-// update when adding components to the page
