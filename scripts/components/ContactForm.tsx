@@ -1,16 +1,19 @@
 import React from 'react';
-import { createRoot } from 'react-dom/client';
 
-function contactForm({contact}) {
-
+export default function ContactForm({ contact }) {
     function onFav() {
-        alert("Favorited!")
+        alert("Favorited!");
+    }
+
+    // Safety fallback: prevent crash if contact data is missing
+    if (!contact) {
+        return <div className="contact-card">No contact data available.</div>;
     }
 
     return (
         <div className="contact-card">
             <div className="contact-poster">
-                <img src={contact.url} alt={contact.title}/>
+                <img src={contact.url} alt={contact.title} />
                 <div className="contact-overlay">
                     <button className="favorite-btn" onClick={onFav}> X </button>
                 </div>
@@ -20,14 +23,5 @@ function contactForm({contact}) {
                 <p>{contact.release_date}</p>
             </div>
         </div>
-    )
+    );
 }
-
-// trigger to show on page
-const container = document.getElementById('root');
-if (container) {
-    const root = createRoot(container);
-    root.render(<contactForm/>);
-}
-
-export default contactForm;
