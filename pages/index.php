@@ -47,9 +47,7 @@ require __DIR__ . "/../components/header.php";
             </div>
             <hr>
         </div>
-        </div>
     </section>
-    </div>
     <section class="secondSection">
         <div class="secondSection-content">
             <hr>
