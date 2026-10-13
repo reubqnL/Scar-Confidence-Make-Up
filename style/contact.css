@@ -1,6 +1,12 @@
-/* WHOLE CONTAINER */
-.contactContainer {
-  min-height: 250px;
+/* CONTAINER */
+.container {
+  display: flex;
+  align-items: flex-start;
+  padding: 0 20px;
+  min-height: 450px;
+}
+.container * {
+  flex: 1;
 }
 
 /* CONTACT HEADER */
@@ -21,18 +27,20 @@
   font-family: "Roboto Mono", sans-serif;
 }
 
-/* CONTACT PARAGRAPH */
-.dataQueryContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  padding: 0 50px;
+/* CONTACT FORM */
+.activeDate {
+  border: 1px solid black;
+  width: 145px;
+  border-radius: 50px;
+  text-align: center;
+  background: rgba(85, 198, 242, 0.2);
 }
 
+/* CONTACT PARAGRAPH */
 .dataQuery {
   text-align: center;
-  max-width: 200px;
-  font-family: "DM Sans", sans-serif;
+  max-width: 240px;
+  font-family: "Roboto Mono", sans-serif;
 }
 
 /*# sourceMappingURL=contact.css.map */

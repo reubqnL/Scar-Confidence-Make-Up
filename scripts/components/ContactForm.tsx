@@ -15,7 +15,7 @@ export function ContactHeader() {
 
             <div className="contactInfo">
                 <h4>{contactHeader.subtitle}</h4>
-                <p>{contactHeader.active_date}</p>
+                <p className="activeDate">{contactHeader.active_date} <span class="dot">•</span></p>
             </div>
         </div>
     );
