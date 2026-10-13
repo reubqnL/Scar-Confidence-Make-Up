@@ -1,0 +1,19 @@
+/* CONTACT HEADER */
+.contactHeader {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  background: #121FCF;
+  background: linear-gradient(90deg, #005f84, #1e8fbb, #1e8fbb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.contactInfo h4 {
+  font-family: "Open Sauce Sans", sans-serif;
+  color: #4a4a4a;
+}
+.contactInfo p {
+  font-family: "Roboto Mono", sans-serif;
+}
+
+/*# sourceMappingURL=contact.css.map */

@@ -1,28 +1,53 @@
 import React from 'react';
 
-function ContactForm({ contact }) {
-    function onFav() {
-        alert("Favorited!");
-    }
-
-    if (!contact) {
-        return <div className="contact-card">No contact data available.</div>;
-    }
+export function ContactHeader() {
+    const contactHeader = {
+        title: "Scar Confidence Support",
+        subtitle: "Have a question? Fill in this form to contact us",
+        active_date: "Active 24/7",
+    };
 
     return (
-        <div className="contact-card">
-            <div className="contact-poster">
-                <img src={contact.url} alt={contact.title} />
-                <div className="contact-overlay">
-                    <button className="favorite-btn" onClick={onFav}> X </button>
-                </div>
+        <div className="contactContainer">
+            <div className="contactHeader">
+                <h3>{contactHeader.title}</h3>
             </div>
-            <div className="contact-info">
-                <h3>{contact.title}</h3>
-                <p>{contact.release_date}</p>
+
+            <div className="contactInfo">
+                <h4>{contactHeader.subtitle}</h4>
+                <p>{contactHeader.active_date}</p>
             </div>
         </div>
     );
 }
 
-export default ContactForm;
+export function ContactForm() {
+
+    return (
+        <div>
+            <form className="contactForm" action="../process.php" method="POST">
+                <input
+                    type="text" id="fname" name="first-name"
+                    placeholder="First Name" autoComplete="given-name" required
+                /><br />
+                <input
+                    type="text" id="lname" name="last-name"
+                    placeholder="Last Name" autoComplete="family-name"
+                /><br />
+                <input
+                    type="text" id="email" name="email"
+                    placeholder="youremail@gmail.com" autoComplete="email" required
+                /><br />
+                <input
+                    type="tel" id="tel" name="tel"
+                    placeholder="(+44) XXXX XXX XXX" autoComplete="tel"
+                /><br />
+                <textarea
+                    id="message" name="message"
+                    placeholder="Explain how we may help you" required>
+                </textarea><br />
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    );
+}

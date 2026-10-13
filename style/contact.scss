@@ -1,0 +1,21 @@
+@import "../style/variables";
+/* CONTACT HEADER */
+
+.contactHeader {
+  font-family: $font-sans;
+  font-weight: 400;
+  background: #121FCF;
+  background: $color-gradient;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.contactInfo {
+  h4 {
+    font-family: $font-sauce;
+    color: $color-dark;
+  }
+  p {
+    font-family: $font-mono;
+  }
+}

@@ -4,32 +4,32 @@
 
 ### If you've made changes on your local device and want to push to GitHub in ONE commit:
 
-git log --oneline (THIS SHOWS YOUR RECENT COMMITS. UNDERNEATH, REPLACE 'X' WITH THE AMOUNT OF PAST COMMITS YOU WANT TO COLLAPSE INTO ONE)
+`git log --oneline` (THIS SHOWS YOUR RECENT COMMITS. UNDERNEATH, REPLACE 'X' WITH THE AMOUNT OF PAST COMMITS YOU WANT TO COLLAPSE INTO ONE)
 
-git reset --soft HEAD~X
-git commit -m "message"
-git push origin <branch-name>
+`git reset --soft HEAD~X`
+`git commit -m "message"`
+`git push origin <branch-name>`
 
 #### Don't include the < > brackets
 
 ### If you want to save changes to an unfinished feature:
 
-git stash -m "message"
+`git stash -m "message"`
 
 #### If you swapped to another branch / want to safely restore your unfinished feature code:
 
-git stash pop
+`git stash pop`
 
 #### You can also view all the stashes:
 
-git stash list
+`git stash list`
 
 DON'T EDIT DIRECTLY INTO `.css` FILES, EDIT IN `.scss` - FILE WATCHER WILL AUTO COMPILE IT
 
 #### Running React
 
-npm run dev - Live updates for a preview site on localhost
+npm run dev` - Live updates for a preview site on localhost
 
-npm run build - Compile all your code
+`npm run build` - Compile all your code
 
-npx sass style/global.scss style/global.css
+`npx sass style/global.scss style/global.css`
