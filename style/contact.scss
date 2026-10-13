@@ -119,11 +119,13 @@ button[type='submit'] {
 
   &:hover {
     cursor: pointer;
+    color: $color-hover;
   }
 }
 
 .text:hover {
   cursor: help;
+
 }
 
 /* CONTACT PARAGRAPH */

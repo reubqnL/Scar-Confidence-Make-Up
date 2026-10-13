@@ -104,6 +104,7 @@ button[type=submit]:focus {
 }
 button[type=submit]:hover {
   cursor: pointer;
+  color: #1e8fbb;
 }
 
 .text:hover {
