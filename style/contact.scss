@@ -5,7 +5,7 @@
 .container {
   display: flex;
   align-items: flex-start;
-  padding: 0 20px;
+  padding: 10px 20px;
   min-height: 450px;
 
   * {
@@ -22,6 +22,14 @@
   background: $color-gradient;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
+  h3 {
+    font-size: 32px;
+  }
+
+  h4 {
+    font-size: 30px;
+  }
 }
 
 .contactInfo {
@@ -38,7 +46,7 @@
 
 .activeDate {
   border: 1px solid black;
-  width: 145px;
+  width: 147px;
   border-radius: 50px;
   text-align: center;
   background: rgba(85, 198, 242, 0.2)
@@ -64,3 +72,4 @@
   padding: 15px;
   background: rgba(85, 198, 242, 0.6);
 }
+

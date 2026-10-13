@@ -2,7 +2,7 @@
 .container {
   display: flex;
   align-items: flex-start;
-  padding: 0 20px;
+  padding: 10px 20px;
   min-height: 450px;
 }
 .container * {
@@ -18,6 +18,12 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.contactHeader h3 {
+  font-size: 32px;
+}
+.contactHeader h4 {
+  font-size: 30px;
+}
 
 .contactInfo h4 {
   font-family: "Open Sauce Sans", sans-serif;
@@ -30,7 +36,7 @@
 /* CONTACT FORM */
 .activeDate {
   border: 1px solid black;
-  width: 145px;
+  width: 147px;
   border-radius: 50px;
   text-align: center;
   background: rgba(85, 198, 242, 0.2);
