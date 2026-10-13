@@ -9,7 +9,6 @@ export default function App() {
         <div>
             {/* check the url and render the right component */}
             {path.includes('contact') && <ContactForm />}
-            {path.includes('about') && <AboutContent />}
         </div>
     );
 }

@@ -1,27 +1,21 @@
 import React from 'react';
 
 function ContactForm() {
-    const contact = {
+    const contactHeader = {
         title: "Scar Confidence Support",
-        release_date: "Active 24/7",
-        url: "https://via.placeholder.com/150"
+        subtitle: "Have a question? Fill in this form to contact us",
+        active_date: "Active 24/7",
     };
 
-    function onFav() {
-        alert("Favorited!");
-    }
-
     return (
-        <div className="contact-card">
-            <div className="contact-poster">
-                <img src={contact.url} alt={contact.title} />
-                <div className="contact-overlay">
-                    <button className="favorite-btn" onClick={onFav}> X </button>
-                </div>
+        <div className="contactContainer">
+            <div className="contactHeader">
+                <h3>{contactHeader.title}</h3>
             </div>
-            <div className="contact-info">
-                <h3>{contact.title}</h3>
-                <p>{contact.release_date}</p>
+
+            <div className="contactInfo">
+                <h4>{contactHeader.subtitle}</h4>
+                <p>{contactHeader.active_date}</p>
             </div>
         </div>
     );
