@@ -8,7 +8,7 @@
   padding: 10px 20px;
   min-height: 450px;
 
-  * {
+  > * {
     flex: 1;
   }
 }
@@ -49,7 +49,7 @@
   width: 147px;
   border-radius: 50px;
   text-align: center;
-  background: rgba(85, 198, 242, 0.2)
+  background: rgba(85, 198, 242, 0.2);
 }
 
 .dot { /* FROM https://cssbud.com/css-generator/css-glow-generator/ */
@@ -64,6 +64,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  max-width: 50%; // the form stays within half the page width
 }
 
 .widthHalf {
@@ -83,17 +84,25 @@
   }
 }
 
-.widthFull {
-  flex: 1 1 100%;
-  box-sizing: border-box;
-  padding: 12px;
-  border: 1px solid #d1d5db;
-  border-radius: 8px;
+/* telephone input should be the same width/styling as widthHalf to keep 3 items in the top row */
+input.widthFull {
+  @extend .widthHalf;
 }
 
 textarea.widthFull {
+  flex: 1 1 100%;
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
   resize: vertical;
-  min-height: 120px;
+  min-height: 140px;
+  background-color: #f9fafb;
+  outline: none;
+
+  &:focus {
+    border-color: #3b82f6;
+    background-color: #ffffff;
+  }
 }
 
 /* CONTACT PARAGRAPH */

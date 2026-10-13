@@ -5,7 +5,7 @@
   padding: 10px 20px;
   min-height: 450px;
 }
-.container * {
+.container > * {
   flex: 1;
 }
 
@@ -53,9 +53,10 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  max-width: 50%;
 }
 
-.widthHalf {
+.widthHalf, input.widthFull {
   flex: 0 1 calc(33.333% - 8px);
   max-width: 200px;
   box-sizing: border-box;
@@ -65,22 +66,25 @@
   outline: none;
   background-color: #f9fafb;
 }
-.widthHalf:focus {
+.widthHalf:focus, input.widthFull:focus {
   border-color: #3b82f6;
   background-color: #ffffff;
 }
 
-.widthFull {
+/* telephone input should be the same width/styling as widthHalf to keep 3 items in the top row */
+textarea.widthFull {
   flex: 1 1 100%;
-  box-sizing: border-box;
   padding: 12px;
   border: 1px solid #d1d5db;
   border-radius: 8px;
-}
-
-textarea.widthFull {
   resize: vertical;
-  min-height: 120px;
+  min-height: 140px;
+  background-color: #f9fafb;
+  outline: none;
+}
+textarea.widthFull:focus {
+  border-color: #3b82f6;
+  background-color: #ffffff;
 }
 
 /* CONTACT PARAGRAPH */
