@@ -33,7 +33,18 @@ export function ContactForm() {
                 <input
                     type="text" id="fname" name="last-name"
                     placeholder="Last Name" autocomplete="family-name">
-                </input>
+                </input><br></br>
+                <input
+                    type="text" id="email" name="email"
+                    placeholder="youremail@gmail.com" autocomplete="email" required>
+                </input><br></br>
+                <input
+                    type="text" id="tel" name="tel"
+                    placeholder="(+44) XXXX XXX XXX" autocomplete="tel">
+                </input><br></br>
+                <input
+                    type="textarea" id="textarea" name="textarea"
+                    placeholder="Explain how we may help you" required></input>
             </form>
         </div>
     );
