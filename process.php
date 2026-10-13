@@ -21,7 +21,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     // sending the query to the database
     if (mysqli_query($conn, $sql)) {
-        echo "<h3>We received your message, $firstname! You said: $message</h3>";
+
+        header("Location: /pages/thanks.php?name=" . urlencode($firstname)); // safe characters, redirects
+        exit();
     } else {
         echo "Error: " . mysqli_error($conn);
     }

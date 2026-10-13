@@ -6,8 +6,9 @@ $current_page = "thanks";
 
 require __DIR__ . "/../components/header.php";
 ?>
-<div class="errorPage">
-    <div class="errorContainer">
+
+<div class="thanksPage">
+    <div class="thanksContainer">
         <h2><strong>Thank You</strong></h2>
         <hr>
         <p>
