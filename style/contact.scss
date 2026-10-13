@@ -86,7 +86,7 @@
 
 /* telephone input should be the same width/styling as widthHalf to keep 3 items in the top row */
 input.widthFull {
-  @extend .widthHalf;
+  @extend .widthHalf; /* https://www.w3schools.com/sass/sass_extend.asp */
 }
 
 textarea.widthFull {
