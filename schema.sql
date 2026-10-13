@@ -5,8 +5,10 @@ USE scar_confidence;
 CREATE TABLE IF NOT EXISTS contact_submissions
 (
     id           INT AUTO_INCREMENT PRIMARY KEY,
-    name         VARCHAR(100) NOT NULL,
+    fname        VARCHAR(100) NOT NULL,
+    lname        VARCHAR(100) NOT NULL,
     email        VARCHAR(100) NOT NULL,
+    tel          VARCHAR(100) NOT NULL,
     message      TEXT         NOT NULL,
     submitted_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     );

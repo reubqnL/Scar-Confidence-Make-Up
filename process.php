@@ -7,6 +7,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $phone = htmlspecialchars($_POST['tel'] ?? '');
     $message = htmlspecialchars($_POST['message'] ?? '');
 
+    // db credentials
+
+    $dbhost = 'localhost';
+    $dbuser = 'root';
+    $dbname = 'scar_confidence';
+
+    $conn = mysqli_connect($dbhost, $dbuser, $dbname);
+
     echo "<h3>We received your message, $firstname! You said: $message</h3>";
 }
 
