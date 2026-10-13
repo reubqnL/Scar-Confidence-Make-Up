@@ -26,7 +26,14 @@ export function ContactForm() {
     return (
         <div>
             <form>
-                <input type="text" id="fname" name="fname" placeholder="First Name" required></input>
+                <input
+                    type="text" id="fname" name="first-name"
+                    placeholder="First Name" autocomplete="given-name" required>
+                </input><br></br>
+                <input
+                    type="text" id="fname" name="last-name"
+                    placeholder="Last Name" autocomplete="family-name">
+                </input>
             </form>
         </div>
     );
