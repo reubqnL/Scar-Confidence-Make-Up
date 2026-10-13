@@ -44,7 +44,7 @@ export function ContactForm() {
                 /><br />
                 <textarea
                     id="message" name="message"
-                    placeholder="Explain how we may help you" class="widthFull" required>
+                    placeholder="Explain how we may help you" class="widthFull text" required>
                 </textarea><br />
                 <button type="submit">Submit</button>
             </form>

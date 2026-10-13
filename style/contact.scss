@@ -71,7 +71,6 @@
   flex: 0 1 calc(33.333% - 8px);
   max-width: 200px;
 
-  box-sizing: border-box;
   padding: 12px;
   border: 1px solid #d1d5db;
   border-radius: 8px;
@@ -103,6 +102,27 @@ textarea.widthFull {
     border-color: #3b82f6;
     background-color: #ffffff;
   }
+}
+
+button[type='submit'] {
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  outline: none;
+  background-color: #f9fafb;
+
+  &:focus {
+    border-color: #3b82f6;
+    background-color: #ffffff;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.text:hover {
+  cursor: help;
 }
 
 /* CONTACT PARAGRAPH */
