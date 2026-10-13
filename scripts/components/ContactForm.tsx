@@ -29,6 +29,7 @@ export function ContactForm() {
                 <input
                     type="text" id="fname" name="first-name"
                     placeholder="First Name" autoComplete="given-name" required
+                    action="process.php" method="POST"
                 /><br />
                 <input
                     type="text" id="lname" name="last-name"
