@@ -25,11 +25,10 @@ export function ContactForm() {
 
     return (
         <div>
-            <form className="contactForm">
+            <form className="contactForm" action="../process.php" method="POST">
                 <input
                     type="text" id="fname" name="first-name"
                     placeholder="First Name" autoComplete="given-name" required
-                    action="process.php" method="POST"
                 /><br />
                 <input
                     type="text" id="lname" name="last-name"
@@ -40,11 +39,11 @@ export function ContactForm() {
                     placeholder="youremail@gmail.com" autoComplete="email" required
                 /><br />
                 <input
-                    type="text" id="tel" name="tel"
+                    type="tel" id="tel" name="tel"
                     placeholder="(+44) XXXX XXX XXX" autoComplete="tel"
                 /><br />
                 <textarea
-                    id="message" name="textarea"
+                    id="message" name="message"
                     placeholder="Explain how we may help you" required>
                 </textarea><br />
                 <button type="submit">Submit</button>
