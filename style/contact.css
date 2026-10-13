@@ -49,6 +49,40 @@
   text-shadow: 0 0 4px #2df5c4, 0 0 10px rgba(45, 255, 196, 0.6);
 }
 
+.contactForm {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.widthHalf {
+  flex: 0 1 calc(33.333% - 8px);
+  max-width: 200px;
+  box-sizing: border-box;
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  outline: none;
+  background-color: #f9fafb;
+}
+.widthHalf:focus {
+  border-color: #3b82f6;
+  background-color: #ffffff;
+}
+
+.widthFull {
+  flex: 1 1 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+}
+
+textarea.widthFull {
+  resize: vertical;
+  min-height: 120px;
+}
+
 /* CONTACT PARAGRAPH */
 .dataQuery {
   text-align: center;

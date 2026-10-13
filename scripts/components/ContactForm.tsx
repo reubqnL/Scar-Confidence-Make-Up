@@ -28,23 +28,23 @@ export function ContactForm() {
             <form className="contactForm" action="../process.php" method="POST">
                 <input
                     type="text" id="fname" name="first-name"
-                    placeholder="First Name" autoComplete="given-name" required
+                    placeholder="First Name" autoComplete="given-name" class="widthHalf" required
                 /><br />
                 <input
                     type="text" id="lname" name="last-name"
-                    placeholder="Last Name" autoComplete="family-name"
+                    placeholder="Last Name" autoComplete="family-name" class="widthHalf"
                 /><br />
                 <input
                     type="text" id="email" name="email"
-                    placeholder="youremail@gmail.com" autoComplete="email" required
+                    placeholder="youremail@gmail.com" autoComplete="email" class="widthHalf" required
                 /><br />
                 <input
                     type="tel" id="tel" name="tel"
-                    placeholder="(+44) XXXX XXX XXX" autoComplete="tel"
+                    placeholder="(+44) XXXX XXX XXX" autoComplete="tel" class="widthFull"
                 /><br />
                 <textarea
                     id="message" name="message"
-                    placeholder="Explain how we may help you" required>
+                    placeholder="Explain how we may help you" class="widthFull" required>
                 </textarea><br />
                 <button type="submit">Submit</button>
             </form>
