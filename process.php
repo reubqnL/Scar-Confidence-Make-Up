@@ -21,12 +21,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     // sending the query to the database
     if (mysqli_query($conn, $sql)) {
-        echo "<h3>Success $firstname! Your message was saved to the database</h3>";
+        echo "<h3>We received your message, $firstname! You said: $message</h3>";
     } else {
         echo "Error: " . mysqli_error($conn);
     }
 
-    echo "<h3>We received your message, $firstname! You said: $message</h3>";
+    mysqli_close($conn);
 }
 
 ?>
