@@ -43,7 +43,7 @@ export function ContactForm() {
                     placeholder="(+44) XXXX XXX XXX" autoComplete="tel">
                 </input><br></br>
                 <textarea
-                    id="message" name="textarea"
+                    id="message" name="message"
                     placeholder="Explain how we may help you" required>
                 </textarea><br></br>
                 <button type="submit">Submit</button>

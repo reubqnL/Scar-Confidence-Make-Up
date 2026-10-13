@@ -7,3 +7,5 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $phone = htmlspecialchars($_POST['tel'] ?? '');
     $message = htmlspecialchars($_POST['message'] ?? '');
 }
+
+?>
