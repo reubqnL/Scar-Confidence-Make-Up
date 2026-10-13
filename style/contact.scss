@@ -58,4 +58,9 @@
   text-align: center;
   max-width: 240px;
   font-family: $font-mono;
+
+  border: 1px solid;
+  border-radius: 50px;
+  padding: 15px;
+  background: rgba(85, 198, 242, 0.6);
 }
