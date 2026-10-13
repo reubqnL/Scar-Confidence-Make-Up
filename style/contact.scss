@@ -44,6 +44,14 @@
   background: rgba(85, 198, 242, 0.2)
 }
 
+.dot { /* FROM https://cssbud.com/css-generator/css-glow-generator/ */
+  color: $color-bg-light;
+  font-size: 1.4em;
+  vertical-align: middle;
+
+  text-shadow: 0 0 4px #2df5c4, 0 0 10px rgba(45, 255, 196, 0.6);
+}
+
 /* CONTACT PARAGRAPH */
 
 .dataQuery {
