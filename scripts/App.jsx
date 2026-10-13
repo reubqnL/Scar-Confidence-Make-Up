@@ -1,5 +1,5 @@
 import React from 'react';
-import ContactForm from './components/ContactForm';
+import {ContactHeader, ContactForm} from './components/ContactForm';
 // whatever the components are
 
 export default function App() {
@@ -8,7 +8,12 @@ export default function App() {
     return (
         <div>
             {/* check the url and render the right component */}
-            {path.includes('contact') && <ContactForm />}
+            {path.includes('contact') && (
+                <>
+                    <ContactHeader/>
+                    <ContactForm/>
+                </>
+                )}
         </div>
     );
 }

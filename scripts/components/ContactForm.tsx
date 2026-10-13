@@ -1,6 +1,6 @@
 import React from 'react';
 
-function ContactForm() {
+export function ContactHeader() {
     const contactHeader = {
         title: "Scar Confidence Support",
         subtitle: "Have a question? Fill in this form to contact us",
@@ -21,4 +21,13 @@ function ContactForm() {
     );
 }
 
-export default ContactForm;
+export function ContactForm() {
+
+    return (
+        <div>
+            <form>
+                <input type="text" id="fname" name="fname" placeholder="First Name" required></input>
+            </form>
+        </div>
+    );
+}
