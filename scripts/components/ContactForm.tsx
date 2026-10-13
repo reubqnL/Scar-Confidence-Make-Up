@@ -25,13 +25,13 @@ export function ContactForm() {
 
     return (
         <div>
-            <form>
+            <form className="contactForm">
                 <input
                     type="text" id="fname" name="first-name"
                     placeholder="First Name" autocomplete="given-name" required>
                 </input><br></br>
                 <input
-                    type="text" id="fname" name="last-name"
+                    type="text" id="lname" name="last-name"
                     placeholder="Last Name" autocomplete="family-name">
                 </input><br></br>
                 <input
@@ -42,9 +42,11 @@ export function ContactForm() {
                     type="text" id="tel" name="tel"
                     placeholder="(+44) XXXX XXX XXX" autocomplete="tel">
                 </input><br></br>
-                <input
-                    type="textarea" id="textarea" name="textarea"
-                    placeholder="Explain how we may help you" required></input>
+                <textarea
+                    id="textarea" name="textarea"
+                    placeholder="Explain how we may help you" required>
+                </textarea><br></br>
+                <button type="submit">Submit</button>
             </form>
         </div>
     );
