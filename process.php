@@ -11,9 +11,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     $dbhost = 'localhost';
     $dbuser = 'root';
+    $dbpass = '';
     $dbname = 'scar_confidence';
 
-    $conn = mysqli_connect($dbhost, $dbuser, $dbname);
+    $conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
+
+    $sql = "INSERT INTO contact_submissions (fname, lname, email, tel, message) 
+    VALUES ('$firstname', '$lastname', '$email', '$phone', '$message')"; // bring sql database values and assigning them to a variable
 
     echo "<h3>We received your message, $firstname! You said: $message</h3>";
 }
