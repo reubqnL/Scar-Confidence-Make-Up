@@ -28,24 +28,24 @@ export function ContactForm() {
             <form className="contactForm">
                 <input
                     type="text" id="fname" name="first-name"
-                    placeholder="First Name" autoComplete="given-name" required>
-                </input><br></br>
+                    placeholder="First Name" autoComplete="given-name" required
+                /><br />
                 <input
                     type="text" id="lname" name="last-name"
-                    placeholder="Last Name" autoComplete="family-name">
-                </input><br></br>
+                    placeholder="Last Name" autoComplete="family-name"
+                /><br />
                 <input
                     type="text" id="email" name="email"
-                    placeholder="youremail@gmail.com" autoComplete="email" required>
-                </input><br></br>
+                    placeholder="youremail@gmail.com" autoComplete="email" required
+                /><br />
                 <input
                     type="text" id="tel" name="tel"
-                    placeholder="(+44) XXXX XXX XXX" autoComplete="tel">
-                </input><br></br>
+                    placeholder="(+44) XXXX XXX XXX" autoComplete="tel"
+                /><br />
                 <textarea
-                    id="message" name="message"
+                    id="message" name="textarea"
                     placeholder="Explain how we may help you" required>
-                </textarea><br></br>
+                </textarea><br />
                 <button type="submit">Submit</button>
             </form>
         </div>

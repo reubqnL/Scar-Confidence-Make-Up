@@ -6,6 +6,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $email = htmlspecialchars($_POST['email'] ?? '');
     $phone = htmlspecialchars($_POST['tel'] ?? '');
     $message = htmlspecialchars($_POST['message'] ?? '');
+
+    echo "<h3>We received your message, $firstname! You said: $message</h3>";
 }
 
 ?>
