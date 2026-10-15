@@ -1,6 +1,10 @@
 /* HERO */
 .heroContainer {
-  min-height: 400px;
+  min-height: 420px;
+  display: flex;
+  flex-direction: column;
+  flex-flow: row wrap;
+  align-items: center;
 }
 .heroContainer h2 {
   color: #4a4a4a;
@@ -11,9 +15,20 @@
   background: linear-gradient(90deg, #005f84, #1e8fbb, #1e8fbb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-size: 52px;
 }
 .heroContainer i {
   color: #005f84;
+}
+.heroContainer p {
+  color: #4a4a4a;
+  font-size: 24px;
+  max-width: 200px;
+  margin-left: auto;
+}
+
+.cardContainer {
+  background-color: #c9e4f7;
 }
 
 /*# sourceMappingURL=services.css.map */

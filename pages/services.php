@@ -10,7 +10,7 @@ require __DIR__ . "/../components/header.php";
 <section class="services">
     <div class="heroContainer">
         <h2>Products & Services</h2>
-        <h3>Camouflage that feels like <i>you</i>.</h3>
+        <h3>Camouflage that <br>feels like <i>you</i>.</h3>
         <p>Specialist makeup and practical guidance for scars, burns, birthmarks, pigmentation changes and
             other visible differences.</p>
     </div>

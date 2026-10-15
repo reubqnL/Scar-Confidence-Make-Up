@@ -3,7 +3,11 @@
 /* HERO */
 
 .heroContainer {
-  min-height: 400px;
+  min-height: 420px;
+  display: flex;
+  flex-direction: column;
+  flex-flow: row wrap;
+  align-items: center;
 
   h2 {
     color: $color-dark;
@@ -15,9 +19,21 @@
     background: $color-gradient;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 52px;
   }
 
   i {
     color: $color-primary;
   }
+
+  p {
+    color: $color-dark;
+    font-size: 24px;
+    max-width: 200px;
+    margin-left: auto;
+  }
+}
+
+.cardContainer {
+  background-color: $color-bg-light;
 }
