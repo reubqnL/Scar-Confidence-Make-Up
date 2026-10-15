@@ -24,9 +24,7 @@ $message   = trim($_POST['message'] ?? '');
 // basic server side validation
 if (
     $firstname === '' ||
-    $lastname === '' ||
     !filter_var($email, FILTER_VALIDATE_EMAIL) ||
-    $phone === '' ||
     $message === ''
 ) {
     http_response_code(400); // https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/400
