@@ -55,7 +55,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   max-width: 50%;
-  gap: 2px;
+  gap: 3px;
 }
 
 .widthHalf, input.widthFull {
