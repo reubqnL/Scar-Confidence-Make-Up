@@ -99,3 +99,32 @@ require __DIR__ . "/../components/header.php";
         <button class="toContact" id="toContact">Discuss clinical supply →</button>
     </div>
 </section>
+
+<section class="faq">
+    <div class="faqContainer">
+        <h2>Common questions</h2>
+        <h3>Before you choose a product</h3>
+        <hr>
+        <div class="faqItem">
+            <h4>Is skin camouflage the same as ordinary makeup?</h4>
+            <p>It usually contains more pigment and is designed for targeted, buildable coverage and
+                longer wear. The finish can still be natural when applied in thin layers.</p>
+            <hr>
+        </div>
+        <div class="faqItem">
+            <h4>Can it cover every type of scar?</h4>
+            <p>Coverage varies with colour, texture and skin condition. Camouflage changes appearance
+                rather than skin texture, and results should always be discussed realistically.</p>
+            <hr>
+        </div>
+        <div class="faqItem">
+            <h4>Do I need a professional colour match?</h4>
+            <p>
+                A guided match is helpful, especially for a first product. Skin tone can also change
+                seasonally, so some people use two blendable shades.</p>
+        </div>
+        <hr>
+    </div>
+</section>
+
+<?php require __DIR__ . "/../components/footer.php"; ?>
