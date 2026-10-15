@@ -6,18 +6,9 @@
   flex-flow: row wrap;
   align-items: center;
 }
-.heroContainer h2 {
-  color: #4a4a4a;
-  font-family: "Roboto Mono", sans-serif;
-  font-size: 15px;
-  margin: 0 0 200px;
-}
 .heroContainer h3 {
-  font-family: "DM Sans", sans-serif;
-  background: linear-gradient(90deg, #005f84, #1e8fbb, #1e8fbb);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   font-size: 60px;
+  padding: 0 0 20px 110px;
 }
 .heroContainer i {
   color: #005f84;
@@ -31,6 +22,19 @@
 
 .cardContainer {
   background-color: #c9e4f7;
+}
+
+.subtitle {
+  color: #4a4a4a;
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 15px;
+}
+
+.gradient {
+  font-family: "DM Sans", sans-serif;
+  background: linear-gradient(90deg, #005f84, #1e8fbb, #1e8fbb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /*# sourceMappingURL=services.css.map */

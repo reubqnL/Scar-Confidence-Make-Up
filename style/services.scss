@@ -9,19 +9,9 @@
   flex-flow: row wrap;
   align-items: center;
 
-  h2 {
-    color: $color-dark;
-    font-family: $font-mono;
-    font-size: 15px;
-    margin: 0 0 200px;
-  }
-
   h3 {
-    font-family: $font-sans;
-    background: $color-gradient;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     font-size: 60px;
+    padding: 0 0 20px 110px;
   }
 
   i {
@@ -38,4 +28,17 @@
 
 .cardContainer {
   background-color: $color-bg-light;
+}
+
+.subtitle {
+  color: $color-dark;
+  font-family: $font-mono;
+  font-size: 15px;
+}
+
+.gradient {
+  font-family: $font-sans;
+  background: $color-gradient;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
