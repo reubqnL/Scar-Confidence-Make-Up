@@ -11,15 +11,17 @@
 
   h2 {
     color: $color-dark;
-    font-family: $font-sans;
+    font-family: $font-mono;
     font-size: 15px;
+    margin: 0 0 200px;
   }
 
   h3 {
+    font-family: $font-sans;
     background: $color-gradient;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 52px;
+    font-size: 60px;
   }
 
   i {
@@ -29,8 +31,8 @@
   p {
     color: $color-dark;
     font-size: 24px;
-    max-width: 200px;
-    margin-left: auto;
+    max-width: 400px;
+    margin: 90px 200px 0 auto;
   }
 }
 

@@ -8,14 +8,16 @@
 }
 .heroContainer h2 {
   color: #4a4a4a;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Roboto Mono", sans-serif;
   font-size: 15px;
+  margin: 0 0 200px;
 }
 .heroContainer h3 {
+  font-family: "DM Sans", sans-serif;
   background: linear-gradient(90deg, #005f84, #1e8fbb, #1e8fbb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 52px;
+  font-size: 60px;
 }
 .heroContainer i {
   color: #005f84;
@@ -23,8 +25,8 @@
 .heroContainer p {
   color: #4a4a4a;
   font-size: 24px;
-  max-width: 200px;
-  margin-left: auto;
+  max-width: 400px;
+  margin: 90px 200px 0 auto;
 }
 
 .cardContainer {
