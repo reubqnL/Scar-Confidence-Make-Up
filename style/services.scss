@@ -1,0 +1,23 @@
+@import "../style/variables";
+
+/* HERO */
+
+.heroContainer {
+  min-height: 400px;
+
+  h2 {
+    color: $color-dark;
+    font-family: $font-sans;
+    font-size: 15px;
+  }
+
+  h3 {
+    background: $color-gradient;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  i {
+    color: $color-primary;
+  }
+}

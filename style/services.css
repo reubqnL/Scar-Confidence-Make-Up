@@ -1,3 +1,19 @@
-
+/* HERO */
+.heroContainer {
+  min-height: 400px;
+}
+.heroContainer h2 {
+  color: #4a4a4a;
+  font-family: "DM Sans", sans-serif;
+  font-size: 15px;
+}
+.heroContainer h3 {
+  background: linear-gradient(90deg, #005f84, #1e8fbb, #1e8fbb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.heroContainer i {
+  color: #005f84;
+}
 
 /*# sourceMappingURL=services.css.map */
