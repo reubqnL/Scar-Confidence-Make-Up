@@ -18,7 +18,7 @@ require __DIR__ . "/../components/header.php";
     </div>
 
     <div class="cardContainer">
-        <div class="cardItem">
+        <div class="cardItem i1">
             <p class="number">01</p>
             <h2>Skin camouflage creams</h2>
             <h3>High-pigment, breathable coverage developed to soften the appearance of scars, burns and
@@ -26,7 +26,7 @@ require __DIR__ . "/../components/header.php";
             <hr>
             <h4>Available in 24 adaptable shades</h4>
         </div>
-        <div class="cardItem">
+        <div class="cardItem i2">
             <p class="number">02</p>
             <h2>Colour correction</h2>
             <h3>Targeted neutralising palettes that help balance redness, pigmentation and uneven skin
@@ -34,7 +34,7 @@ require __DIR__ . "/../components/header.php";
             <hr>
             <h4>Clinician-guided colour matching</h4>
         </div>
-        <div class="cardItem">
+        <div class="cardItem i3">
             <p class="number">03</p>
             <h2>Settings & protection</h2>
             <h3>Lightweight powders and barrier sprays designed to improve transfer resistance while
@@ -42,7 +42,7 @@ require __DIR__ . "/../components/header.php";
             <hr>
             <h4>Everyday, water-resistant wear</h4>
         </div>
-        <div class="cardItem">
+        <div class="cardItem i4">
             <p class="number">04</p>
             <h2>Professional kits</h2>
             <h3>Practical, sanitisation-conscious kits for hospital teams, skin camouflage practitioners

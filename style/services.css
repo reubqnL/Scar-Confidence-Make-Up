@@ -41,7 +41,7 @@
 .cardContainer {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 8px 16px;
+  padding: 32px 24px 32px 24px;
   /*
   * Creates 2 equal width columns that automatically scale.
   * repeat(2, ...) duplicates the layout rules 2 times.
@@ -55,7 +55,7 @@
   flex-direction: column;
   padding: 20px;
   border: 1px solid #ccc;
-  border-radius: 8px;
+  border-radius: 16px;
   text-align: left;
 }
 .cardItem h2 {
@@ -63,14 +63,42 @@
 }
 .cardItem h3 {
   font-family: "DM Sans", sans-serif;
+  color: #4a4a4a;
 }
 .cardItem h4 {
   font-family: "Roboto Mono", sans-serif;
+  color: #005f84;
+}
+.cardItem hr {
+  border: 1px solid rgba(74, 74, 74, 0.2);
+  width: 85%;
+  margin-right: 100px;
 }
 
 .number {
   padding-bottom: 50px;
   font-family: "Open Sauce Sans", sans-serif;
+  border: 1px solid #f18c02;
+  border-radius: 50px;
+  width: 60px;
+  padding: 20px 17px;
+  background-color: #f18c02;
+}
+
+.i1 {
+  background-color: #ddeff3;
+}
+
+.i2 {
+  background-color: #f8e7dc;
+}
+
+.i3 {
+  background-color: #e7eeea;
+}
+
+.i4 {
+  background-color: #f4eadb;
 }
 
 /*# sourceMappingURL=services.css.map */
