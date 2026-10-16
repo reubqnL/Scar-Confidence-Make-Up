@@ -42,6 +42,12 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 8px 16px;
+  /*
+  * Creates 2 equal width columns that automatically scale.
+  * repeat(2, ...) duplicates the layout rules 2 times.
+  * 1fr (fraction unit) gives each column 1 equal share of available space.
+  */
+  gap: 20px;
 }
 
 .cardItem {
@@ -50,6 +56,21 @@
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 8px;
+  text-align: left;
+}
+.cardItem h2 {
+  font-family: "Roboto Mono", sans-serif;
+}
+.cardItem h3 {
+  font-family: "DM Sans", sans-serif;
+}
+.cardItem h4 {
+  font-family: "Roboto Mono", sans-serif;
+}
+
+.number {
+  padding-bottom: 50px;
+  font-family: "Open Sauce Sans", sans-serif;
 }
 
 /*# sourceMappingURL=services.css.map */
