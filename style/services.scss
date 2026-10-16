@@ -42,3 +42,19 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+/* CARDS */
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 8px 16px;
+}
+
+.cardItem {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
