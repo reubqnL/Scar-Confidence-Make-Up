@@ -14,8 +14,9 @@
   color: #005f84;
 }
 .heroContainer p {
+  font-family: "DM Sans", sans-serif;
   color: #4a4a4a;
-  font-size: 24px;
+  font-size: 22px;
   max-width: 400px;
   margin: 90px 200px 0 auto;
 }
