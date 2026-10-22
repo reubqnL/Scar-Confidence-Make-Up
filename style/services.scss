@@ -263,9 +263,36 @@
 .faqContainer {
   display: grid;
   text-align: center;
+  cursor: help;
 
   h3 {
     font-family: $font-sans;
     font-size: 32px;
+
+    .title {
+      background: $color-gradient;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+  h4 {
+    font-family: $font-sans;
+    font-size: 22px;
+    color: $color-primary;
+  }
+
+  p {
+    font-family: $font-mono;
+    font-size: 16px;
+    color: $color-dark;
+  }
+
+  hr {
+    border: 1px solid rgba(74, 74, 74, 0.2);
+  }
+
+  .hr {
+    width: 40%;
   }
 }

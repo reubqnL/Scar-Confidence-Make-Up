@@ -110,9 +110,9 @@ require __DIR__ . "/../components/header.php";
 
 <section class="faq">
     <div class="faqContainer">
-        <h3><span class="subtitle">Common questions</span><br>
-        Before you choose a product</h3>
-        <hr>
+        <h3><span class="subtitle ul">Common questions</span><br>
+            <span class="title">Before you choose a product</span></h3>
+        <hr class="hr">
         <div class="faqItem">
             <h4>Is skin camouflage the same as ordinary makeup?</h4>
             <p>It usually contains more pigment and is designed for targeted, buildable coverage and

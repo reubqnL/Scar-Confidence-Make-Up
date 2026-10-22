@@ -240,10 +240,32 @@
 .faqContainer {
   display: grid;
   text-align: center;
+  cursor: help;
 }
 .faqContainer h3 {
   font-family: "DM Sans", sans-serif;
   font-size: 32px;
+}
+.faqContainer h3 .title {
+  background: linear-gradient(90deg, #005f84, #1e8fbb, #1e8fbb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.faqContainer h4 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  color: #005f84;
+}
+.faqContainer p {
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 16px;
+  color: #4a4a4a;
+}
+.faqContainer hr {
+  border: 1px solid rgba(74, 74, 74, 0.2);
+}
+.faqContainer .hr {
+  width: 40%;
 }
 
 /*# sourceMappingURL=services.css.map */
