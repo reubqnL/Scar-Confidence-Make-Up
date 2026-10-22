@@ -241,3 +241,17 @@
   font-family: $font-mono;
   font-size: 15px;
 }
+#toContact {
+  background-color: $color-bg-orange;
+  border: none;
+  border-radius: 20px;
+  width: 200px;
+  padding: 15px;
+  color: aliceblue;
+  cursor: pointer;
+
+  &:hover {
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.07);
+  }
+}
