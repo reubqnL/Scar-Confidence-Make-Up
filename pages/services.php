@@ -90,7 +90,9 @@ require __DIR__ . "/../components/header.php";
             <p><strong>A note on skin safety:</strong> camouflage should not be applied to open, infected or actively
                 healing skin. Patch test new products and ask your clinical team when you are unsure
                 whether your skin is ready.</p>
+        </div>
 </section>
+<hr style="border: none; margin: 60px 0 0 0;">
 
 <section class="advertisement">
     <div class="advertisementContainer">

@@ -184,14 +184,21 @@
   margin-top: 20px;
   font-size: 14px;
   min-width: 1140px;
-  transform: translateX(-600px);
+  transform: translateX(-570px);
   border: 1px solid orangered;
   border-radius: 10px;
   background-color: #FFDCB5;
   padding: 5px;
+  font-family: $font-sans;
 }
 
 .break {
   border: 1px solid rgba(74, 74, 74, 0.2);
   transform: translateY(-8px);
+}
+
+/* ADVERTISEMENT */
+
+.advertisement {
+  background-color: #18383f;
 }
