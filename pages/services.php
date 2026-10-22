@@ -51,13 +51,13 @@ require __DIR__ . "/../components/header.php";
             <h4>Built for clinical environments</h4>
         </div>
     </div>
-    <hr>
+    <hr class="break">
 </section>
 
 <section class="routineContainer">
     <div class="routineItems">
-        <h2>Using camouflage</h2>
-        <h3>Designed to fit your routine</h3>
+        <h3><span class="subtitle">Using camouflage</span><br>
+        Designed to fit<br> your routine</h3>
         <p>Good camouflage is not only about coverage. Preparation, colour, application and setting all
             affect comfort and wear.</p>
     </div>

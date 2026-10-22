@@ -3,7 +3,7 @@
 /* HERO */
 
 .heroContainer {
-  min-height: 420px;
+  min-height: 410px;
   display: flex;
   flex-direction: column;
   flex-flow: row wrap;
@@ -112,4 +112,58 @@
 
 .i4 {
   background-color: #f4eadb;
+}
+
+/* USING CAMOUFLAGE */
+
+.routineContainer {
+  min-height: 420px;
+  display: flex;
+  flex-direction: column;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.routineItems {
+  h3 {
+    font-family: $font-sans;
+    color: $color-dark;
+    font-size: 60px;
+    padding: 0 0 20px 110px;
+  }
+
+  p {
+    font-family: $font-sans;
+    color: $color-dark;
+    font-size: 22px;
+    max-width: 470px;
+    padding-left: 110px;
+    transform: translateY(-50px);
+  }
+}
+
+.break {
+  border: 1px solid rgba(74, 74, 74, 0.2);
+  transform: translateY(-8px);
+}
+
+.horizontalCardContainer {
+  flex-direction: column;
+}
+
+.horizontalCardItem {
+  border: none;
+  border-radius: 20px;
+  background-color: $color-bg-light;
+  max-width: 700px;
+  text-align: left;
+  padding: 0 0 5px 20px;
+
+  h2 {
+    font-family: $font-sans;
+  }
+
+  p {
+    font-family: $font-mono;
+  }
 }
