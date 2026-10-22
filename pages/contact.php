@@ -7,6 +7,7 @@ $current_page = "contact";
 require __DIR__ . "/../components/header.php";
 ?>
 
+<link rel="stylesheet" href="../style/animations/index.css">
 <!-- REACT LOADING -->
 <script type="module">
     import RefreshRuntime from 'http://localhost:5173/@react-refresh'

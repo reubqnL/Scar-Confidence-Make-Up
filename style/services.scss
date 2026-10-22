@@ -1,0 +1,298 @@
+@import "../style/variables";
+
+/* HERO */
+
+.heroContainer {
+  min-height: 410px;
+  display: flex;
+  flex-direction: column;
+  flex-flow: row wrap;
+  align-items: center;
+
+  h3 {
+    font-size: 60px;
+    padding: 0 0 20px 110px;
+  }
+
+  i {
+    color: $color-primary;
+  }
+
+  p {
+    font-family: $font-sans;
+    color: $color-dark;
+    font-size: 22px;
+    max-width: 400px;
+    margin: 90px 200px 0 auto;
+  }
+}
+
+.cardContainer {
+  background-color: $color-bg-light;
+}
+
+.subtitle {
+  color: $color-dark;
+  font-family: $font-mono;
+  font-size: 15px;
+}
+
+.gradient {
+  font-family: $font-sans;
+  background: $color-gradient;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* CARDS */
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 32px 24px 32px 24px;
+
+/*
+* Creates 2 equal width columns that automatically scale.
+* repeat(2, ...) duplicates the layout rules 2 times.
+* 1fr (fraction unit) gives each column 1 equal share of available space.
+*/
+  gap: 20px;
+}
+
+.cardItem {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 16px;
+  text-align: left;
+
+  h2 {
+    font-family: $font-mono;
+  }
+
+  h3 {
+    font-family: $font-sans;
+    color: $color-dark;
+  }
+
+  h4 {
+    font-family: $font-mono;
+    color: #005f84;
+  }
+
+  hr {
+    border: 1px solid rgba(74, 74, 74, 0.2);
+    width: 85%;
+    margin-right: 100px;
+  }
+}
+
+.number {
+  padding-bottom: 50px;
+  font-family: $font-sauce;
+  border: 1px solid $color-bg-orange;
+  border-radius: 50px;
+  width: 60px;
+  padding: 20px 17px;
+  background-color: $color-bg-orange;
+}
+
+.i1 {
+  background-color: #ddeff3;
+}
+
+.i2 {
+  background-color: #f8e7dc;
+}
+
+.i3 {
+  background-color: #e7eeea;
+}
+
+.i4 {
+  background-color: #f4eadb;
+}
+
+/* USING CAMOUFLAGE */
+
+.routineContainer {
+  min-height: 420px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.routineItems {
+  flex: 1;
+
+  h3 {
+    font-family: $font-sans;
+    color: $color-dark;
+    font-size: 60px;
+    padding: 0 0 20px 0;
+  }
+
+  p {
+    font-family: $font-sans;
+    color: $color-dark;
+    font-size: 22px;
+    max-width: 470px;
+    padding-left: 0;
+    transform: translateY(-50px);
+  }
+}
+
+.horizontalCardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+  max-width: 600px;
+  margin-top: 100px;
+}
+
+.horizontalCardItem {
+  border: none;
+  border-radius: 20px;
+  background-color: $color-bg-light;
+  width: 100%;
+  text-align: left;
+  padding: 20px;
+
+  h2 {
+    font-family: $font-sans;
+    margin: 5px 0;
+  }
+
+  p {
+    font-family: $font-mono;
+    margin: 0;
+  }
+}
+
+.horizontalNumber {
+  font-weight: bold;
+}
+
+.notice {
+  margin-top: 20px;
+  font-size: 14px;
+  min-width: 1140px;
+  transform: translateX(-570px);
+  border: 1px solid orangered;
+  border-radius: 10px;
+  background-color: #FFDCB5;
+  padding: 5px;
+  font-family: $font-sans;
+}
+
+.break {
+  border: 1px solid rgba(74, 74, 74, 0.2);
+  transform: translateY(-8px);
+}
+
+/* ADVERTISEMENT */
+
+.advertisement {
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #18383f;
+}
+
+.advertisementContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 32px;
+
+  h3 {
+    font-family: $font-sans;
+    color: $color-bg-light;
+  }
+
+  p {
+    font-family: $font-mono;
+    color: $color-bg-light;
+    max-width: 800px;
+  }
+
+  img {
+    max-width: 500px;
+    height: auto;
+    border-radius: 25px;
+    margin-left: 20px;
+  }
+
+  .advertisementContent {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+.subtitle2 {
+  color: darkgray;
+  font-family: $font-mono;
+  font-size: 15px;
+}
+#toContact {
+  background-color: $color-bg-orange;
+  border: none;
+  border-radius: 20px;
+  width: 200px;
+  padding: 15px;
+  color: aliceblue;
+  cursor: pointer;
+
+  &:hover {
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.07);
+  }
+}
+
+/* FAQ */
+
+.faqContainer {
+  display: grid;
+  text-align: center;
+  cursor: help;
+
+  h3 {
+    font-family: $font-sans;
+    font-size: 32px;
+
+    .title {
+      background: $color-gradient;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+  h4 {
+    font-family: $font-sans;
+    font-size: 22px;
+    color: $color-primary;
+  }
+
+  p {
+    font-family: $font-mono;
+    font-size: 16px;
+    color: $color-dark;
+  }
+
+  hr {
+    border: 1px solid rgba(74, 74, 74, 0.2);
+  }
+
+  .hr {
+    width: 40%;
+  }
+}
