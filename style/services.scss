@@ -221,12 +221,14 @@
   p {
     font-family: $font-mono;
     color: $color-bg-light;
+    max-width: 800px;
   }
 
   img {
     max-width: 500px;
     height: auto;
     border-radius: 25px;
+    margin-left: 20px;
   }
 
   .advertisementContent {

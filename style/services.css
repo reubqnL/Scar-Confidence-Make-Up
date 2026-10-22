@@ -202,11 +202,13 @@
 .advertisementContainer p {
   font-family: "Roboto Mono", sans-serif;
   color: #c9e4f7;
+  max-width: 800px;
 }
 .advertisementContainer img {
   max-width: 500px;
   height: auto;
   border-radius: 25px;
+  margin-left: 20px;
 }
 .advertisementContainer .advertisementContent {
   display: flex;
