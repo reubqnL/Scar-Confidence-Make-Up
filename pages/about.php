@@ -56,37 +56,7 @@ require __DIR__ . "/../components/header.php";
     <section>
         <h2>Work with us</h2>
         <p>We welcome enquiries from hospitals, clinics, practitioners, distributors and individuals.</p>
-        <p><a href="contact.html">Contact Scar Confidence</a></p>
+        <p><a href="contact.php">Contact Scar Confidence</a></p>
     </section>
 </main>
-
-<footer class="footer" role="contentinfo">
-
-    <div class="footer__inner">
-
-        <div class="footer__brand">
-            <span class="footer__name">Scar Confidence</span>
-            <p class="footer__tagline">Ethical Healthcare Solutions<br>Established since 2025.</p>
-        </div>
-
-        <nav class="footer__nav" aria-label="Footer navigation">
-            <h3 class="footer__heading">Quick Links</h3>
-            <ul role="list">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#directory">Directory</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-
-        <div class="footer__contact">
-            <h3 class="footer__heading">Contact</h3>
-            <address>
-                <p><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Meadow Lane, Fulwood, Sheffield S10 4GG</p>
-                <p><i class="fa-solid fa-phone" aria-hidden="true"></i> <a href="tel:+441142000000">0114 200 0000</a></p>
-                <p><i class="fa-solid fa-envelope" aria-hidden="true"></i> <a href="mailto:hello@scarconfidencesheffield.co.uk">hello@scarconfidencesheffield.co.uk</a></p>
-            </address>
-        </div>
-    </div>
 <?php require __DIR__ . "/../components/footer.php"; ?>
