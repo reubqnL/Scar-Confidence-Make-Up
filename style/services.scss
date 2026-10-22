@@ -119,17 +119,23 @@
 .routineContainer {
   min-height: 420px;
   display: flex;
-  flex-direction: column;
-  flex-flow: row wrap;
-  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
 }
 
 .routineItems {
+  flex: 1;
+
   h3 {
     font-family: $font-sans;
     color: $color-dark;
     font-size: 60px;
-    padding: 0 0 20px 110px;
+    padding: 0 0 20px 0;
   }
 
   p {
@@ -137,33 +143,48 @@
     color: $color-dark;
     font-size: 22px;
     max-width: 470px;
-    padding-left: 110px;
+    padding-left: 0;
     transform: translateY(-50px);
   }
 }
 
-.break {
-  border: 1px solid rgba(74, 74, 74, 0.2);
-  transform: translateY(-8px);
-}
-
 .horizontalCardContainer {
+  display: flex;
   flex-direction: column;
+  gap: 20px;
+  flex: 1;
+  max-width: 600px;
 }
 
 .horizontalCardItem {
   border: none;
   border-radius: 20px;
   background-color: $color-bg-light;
-  max-width: 700px;
+  width: 100%;
   text-align: left;
-  padding: 0 0 5px 20px;
+  padding: 20px;
 
   h2 {
     font-family: $font-sans;
+    margin: 5px 0;
   }
 
   p {
     font-family: $font-mono;
+    margin: 0;
   }
+}
+
+.horizontalNumber {
+  font-weight: bold;
+}
+
+.notice {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.break {
+  border: 1px solid rgba(74, 74, 74, 0.2);
+  transform: translateY(-8px);
 }
