@@ -184,18 +184,40 @@
 .advertisement {
   min-height: 600px;
   display: flex;
-  flex-direction: column;
-  flex-flow: row wrap;
+  justify-content: center;
   align-items: center;
   background-color: #18383f;
 }
 
 .advertisementContainer {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 32px;
+}
+.advertisementContainer h3 {
+  font-family: "DM Sans", sans-serif;
+  color: #c9e4f7;
+}
+.advertisementContainer p {
+  font-family: "Roboto Mono", sans-serif;
+  color: #c9e4f7;
 }
 .advertisementContainer img {
   max-width: 500px;
+  height: auto;
   border-radius: 25px;
+}
+.advertisementContainer .advertisementContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.subtitle2 {
+  color: darkgray;
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 15px;
 }
 
 /*# sourceMappingURL=services.css.map */

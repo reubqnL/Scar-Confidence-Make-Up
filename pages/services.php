@@ -99,8 +99,8 @@ require __DIR__ . "/../components/header.php";
             <img src="../assets/makeup.avif" alt="An image of makeup products">
 
             <div class="advertisementContent">
-                <h2>For clinical teams</h2>
-                <h3>More than products on a shelf.</h3>
+                <h3><span class="subtitle2">For clinical teams</span><br>
+                More than products on a shelf.</h3>
                 <p>We support practitioners with shade matching, application guidance and straightforward
                     product information. Training can be adapted to your team and care setting.</p>
                 <button class="toContact" id="toContact">Discuss clinical supply →</button>
