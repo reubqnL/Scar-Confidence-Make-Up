@@ -9,8 +9,8 @@ document.addEventListener('click', function(event) {
     } else if (toAbout) {
         window.location.href = 'about.php';
     } else if (toDirectory) {
-        window.location.href = 'toDirectory'
+        window.location.href = 'directory.php'
     } else if (toContact) {
-        window.location.href = 'toContact'
+        window.location.href = 'contact.php'
     }
 });
