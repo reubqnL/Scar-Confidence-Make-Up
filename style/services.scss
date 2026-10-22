@@ -200,5 +200,19 @@
 /* ADVERTISEMENT */
 
 .advertisement {
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  flex-flow: row wrap;
+  align-items: center;
   background-color: #18383f;
+}
+
+.advertisementContainer {
+  display: flex;
+
+  img {
+    max-width: 500px;
+    border-radius: 25px;
+  }
 }

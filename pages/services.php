@@ -94,15 +94,19 @@ require __DIR__ . "/../components/header.php";
 </section>
 <hr style="border: none; margin: 60px 0 0 0;">
 
-<section class="advertisement">
-    <div class="advertisementContainer">
-        <h2>For clinical teams</h2>
-        <h3>More than products on a shelf.</h3>
-        <p>We support practitioners with shade matching, application guidance and straightforward
-            product information. Training can be adapted to your team and care setting.</p>
-        <button class="toContact" id="toContact">Discuss clinical supply →</button>
-    </div>
-</section>
+    <section class="advertisement">
+        <div class="advertisementContainer">
+            <img src="../assets/makeup.avif" alt="An image of makeup products">
+
+            <div class="advertisementContent">
+                <h2>For clinical teams</h2>
+                <h3>More than products on a shelf.</h3>
+                <p>We support practitioners with shade matching, application guidance and straightforward
+                    product information. Training can be adapted to your team and care setting.</p>
+                <button class="toContact" id="toContact">Discuss clinical supply →</button>
+            </div>
+        </div>
+    </section>
 
 <section class="faq">
     <div class="faqContainer">
