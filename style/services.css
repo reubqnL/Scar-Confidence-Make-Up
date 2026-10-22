@@ -236,4 +236,14 @@
   transform: scale(1.07);
 }
 
+/* FAQ */
+.faqContainer {
+  display: grid;
+  text-align: center;
+}
+.faqContainer h3 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 32px;
+}
+
 /*# sourceMappingURL=services.css.map */

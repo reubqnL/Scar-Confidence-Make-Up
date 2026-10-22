@@ -257,3 +257,15 @@
     transform: scale(1.07);
   }
 }
+
+/* FAQ */
+
+.faqContainer {
+  display: grid;
+  text-align: center;
+
+  h3 {
+    font-family: $font-sans;
+    font-size: 32px;
+  }
+}

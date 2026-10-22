@@ -110,8 +110,8 @@ require __DIR__ . "/../components/header.php";
 
 <section class="faq">
     <div class="faqContainer">
-        <h2>Common questions</h2>
-        <h3>Before you choose a product</h3>
+        <h3><span class="subtitle">Common questions</span><br>
+        Before you choose a product</h3>
         <hr>
         <div class="faqItem">
             <h4>Is skin camouflage the same as ordinary makeup?</h4>
