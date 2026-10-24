@@ -1,0 +1,31 @@
+/* Combined Google Fonts (DM Sans, Roboto Mono, Rubik) */
+@font-face {
+  font-family: "DM Sans";
+  src: url("../assets/fonts/dm-sans.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 100 1000;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto Mono";
+  src: url("../assets/fonts/roboto-mono.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 100 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url("../assets/fonts/rubik.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 300 900;
+  font-display: swap;
+}
+
+/* Open Sauce Sans */
+@font-face {
+  font-family: "Open Sauce Sans";
+  src: url("../assets/fonts/open-sauce-sans.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
