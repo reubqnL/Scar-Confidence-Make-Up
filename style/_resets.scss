@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  /*
+  It ensures that any padding or borders you add are included inside an
+  element's total width and height, preventing items from unexpectedly stretching past their containers
+  */
+
+}
+
+html { overflow-y: scroll; overflow-x: clip; scroll-behavior: smooth; }
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: clip;
+  position: relative;
+  color: #243746;
+  background: radial-gradient(circle at 50% 50%, #acccec, #d5e5f6);
+  font-family: "DM Sans", sans-serif;
+  line-height: 1.6;
+}
+img { max-width: 100%; }
+button, input, textarea { font: inherit; }
+button, a, input, textarea { -webkit-tap-highlight-color: transparent; }
+:focus-visible { outline: 3px solid #005f84; outline-offset: 4px; }
+main { min-height: 45vh; }
+a { overflow-wrap: anywhere; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+}
