@@ -1,0 +1,95 @@
+@import "../style/variables";
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: $color-primary;
+    text-decoration: none;
+    flex-shrink: 0;
+    order: 2;
+
+    img { width: 45px; height: auto; object-fit: contain; }
+}
+
+.brand-name {
+    font-family: $font-sans;
+    font-size: clamp(1.15rem, 2vw, 1.5rem);
+    font-weight: 500;
+}
+
+.headerTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 22px clamp(20px, 4vw, 50px);
+}
+
+nav {
+    order: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 28px;
+    font-family: $font-sans;
+
+    a {
+        display: inline-flex;
+        align-items: center;
+        min-height: 44px;
+        padding: 4px 8px;
+        text-decoration: none;
+        color: inherit;
+        border-radius: 6px;
+        &:hover { color: $color-primary; text-decoration: underline; text-underline-offset: 5px; }
+    }
+}
+
+.headerSeparator {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, black, transparent);
+    width: calc(100% - 60px);
+    max-width: 1380px;
+    margin: 0 30px;
+}
+
+h1 { color: $color-primary; font-family: $font-sans; font-weight: 500; }
+.active { font-weight: 700 !important; }
+.menu-toggle { display: none; }
+.skip-link {
+    position: absolute;
+    left: 16px;
+    top: -100px;
+    z-index: 2000;
+    padding: 12px 18px;
+    background: white;
+    color: #123;
+    &:focus { top: 12px; }
+}
+
+@media (max-width: 760px) {
+    .headerTop { flex-wrap: wrap; gap: 12px; padding: 18px 20px; }
+    .header { order: 1; }
+    .menu-toggle {
+        order: 2;
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        min-height: 44px;
+        padding: 8px 12px;
+        border: 1px solid $color-primary;
+        border-radius: 8px;
+        background: transparent;
+        color: $color-primary;
+        font: inherit;
+        cursor: pointer;
+    }
+    nav { order: 3; display: none; width: 100%; flex-direction: column; gap: 4px; }
+    nav.is-open { display: flex; }
+    nav a { width: 100%; padding: 10px 12px; }
+    .headerSeparator { width: calc(100% - 40px); margin: 0 20px; }
+}
