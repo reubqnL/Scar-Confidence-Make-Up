@@ -1,0 +1,105 @@
+.directory-page {
+  max-width: 1200px;
+  margin: auto;
+  padding: 64px 24px 80px;
+}
+
+.directory-intro h1 {
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  line-height: 1.2;
+  margin: 8px 0 16px;
+}
+.directory-intro p {
+  max-width: 65ch;
+}
+
+.eyebrow {
+  color: #005f84;
+  font-family: "Roboto Mono", sans-serif;
+}
+
+.directory-search {
+  margin: 32px 0 20px;
+}
+.directory-search label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+.directory-search > div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+.directory-search input {
+  flex: 1 1 260px;
+  min-width: 0;
+  min-height: 48px;
+  padding: 12px;
+  border: 1px solid #758898;
+  border-radius: 8px;
+  font-size: 16px;
+  background: #f9fafb;
+}
+.directory-search button {
+  min-height: 48px;
+  padding: 10px 24px;
+  border: 1px solid #005f84;
+  border-radius: 8px;
+  background: #005f84;
+  color: white;
+  cursor: pointer;
+}
+.directory-search a {
+  color: #005f84;
+  padding: 10px;
+}
+
+.directory-count {
+  font-family: "Roboto Mono", sans-serif;
+  margin: 24px 0;
+}
+
+.directory-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.directory-card {
+  min-width: 0;
+  padding: 24px;
+  background: rgba(255, 255, 255, 0.5019607843);
+  border: 1px solid #789bb2;
+  border-radius: 16px;
+}
+.directory-card h2 {
+  margin-top: 0;
+  color: #005f84;
+  font-size: 1.5rem;
+}
+.directory-card h3 {
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+.directory-card section {
+  margin-top: 24px;
+}
+.directory-card section p {
+  margin: 4px 0;
+}
+.directory-card a {
+  color: #005f84;
+}
+
+@media (max-width: 700px) {
+  .directory-page {
+    padding: 40px 20px 56px;
+  }
+  .directory-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*# sourceMappingURL=directory.css.map */
