@@ -1,0 +1,63 @@
+h2, h3, p, button {
+  font-family: "Roboto Mono", sans-serif;
+  font-size: clamp(1rem, 3vw, 1.5rem);
+}
+
+p {
+  font-weight: 400;
+  margin: 0;
+}
+
+h2, h3 {
+  margin: 0;
+}
+
+hr {
+  border: 1px solid;
+  width: 75%;
+  color: black;
+  margin: 0;
+}
+
+.errorContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  background: #acccec;
+  padding: clamp(24px, 5vw, 40px);
+  max-width: 700px;
+  width: 100%;
+  box-sizing: border-box;
+  gap: 20px;
+}
+
+.errorPage {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 64px 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  text-decoration: none;
+  border-radius: 20px;
+  background: #FCA332;
+  border: 1px solid;
+  min-height: 44px;
+  width: 100px;
+  font-size: 20px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+button:hover {
+  transition: transform 0.2s ease-in-out; /* Smooth hover animation */
+  transform: scale(1.07);
+}
+
+/*# sourceMappingURL=404.css.map */
