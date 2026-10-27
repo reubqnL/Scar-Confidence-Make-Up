@@ -1,0 +1,69 @@
+/* HERO */
+main {
+  max-width: 1100px;
+  margin: auto;
+  padding: 48px 24px 72px;
+}
+main > section {
+  padding: 36px 0;
+  border-bottom: 1px solid #789bb2;
+}
+main > section:first-child {
+  padding-top: 16px;
+}
+main > section:last-child {
+  border-bottom: 0;
+}
+main h1 {
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  line-height: 1.2;
+  margin-top: 8px;
+}
+main h2 {
+  color: #005f84;
+  font-size: 1.8rem;
+}
+main h3 {
+  color: #005f84;
+}
+main p {
+  max-width: 75ch;
+}
+main > section:first-child > p:first-child {
+  font-family: "Roboto Mono", sans-serif;
+  color: #005f84;
+}
+main section:nth-child(3) {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+main section:nth-child(3) h2 {
+  grid-column: 1/-1;
+  margin-bottom: 0;
+}
+main section:nth-child(3) article {
+  background: rgba(255, 255, 255, 0.4392156863);
+  border-radius: 12px;
+  padding: 24px;
+}
+main section:nth-child(3) h3 {
+  margin-top: 0;
+}
+main li {
+  margin-bottom: 10px;
+}
+main a {
+  color: #005f84;
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 32px 20px 48px;
+  }
+  main > section:nth-child(3) {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*# sourceMappingURL=about.css.map */
